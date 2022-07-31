@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'PinkPanther';
+    src: URL('Desigers.TTF') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'EBGaramondRegular';
+    src: URL('EB_Garamond/static/EBGaramond-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'EBGaramondItalic';
+    src: URL('EB_Garamond/static/EBGaramond-Italic.ttf') format('truetype');
+  }
+
+* {
+    font-family: EBGaramondRegular;
+}
+
+/* -------------------------------------------- NAVBAR -------------------------------------------- */
+
+.navbar-brand {
+    font-family: PinkPanther;
+}
+
+.flag-icon img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.brand-icon img {
+    width: 40px;
+}
+
+/* -------------------------------------------- NAVBAR -------------------------------------------- */
+
+/* -------------------------------------------- MAIN SECTION -------------------------------------------- */
+
+.main-image img {
+    width: 75%;
+    border-radius: 15px;
+}
+
+.main-box {
+    border: 1px solid lightpink;
+    border-radius: 15px;
+}
+
+.main-box h3 {
+    margin-bottom: 1rem;
+}
+
+.main-triple-icon {
+    width: 64px;
+}
+
+.main-triple-btn, .main-triple-btn {
+    font-size: 20px !important;
+}
+
+.main-triple {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: white;
+    text-shadow: 2px 1px 2px black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 36px;
+}
+.background-image {
+    background-size: cover;
+    height: 250px;
+    background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url("../img/backgroundtop.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+/* -------------------------------------------- MAIN SECTION -------------------------------------------- */
+
+/* -------------------------------------------- SLIDER -------------------------------------------- */
+.carousel-inner {
+    border-radius: 15px;
+}
+
+.carousel-control-prev{
+    margin-left: -40px;
+}
+.carousel-control-next {
+    margin-right: -40px;
+}
+.carousel-control-prev-icon {
+    background-image: url("../img/caret-left-fill.svg") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../img/caret-right-fill.svg") !important;
+}
+
+/* -------------------------------------------- SLIDER -------------------------------------------- */
