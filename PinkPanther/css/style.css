@@ -89,6 +89,33 @@
 }
 /* -------------------------------------------- MAIN SECTION -------------------------------------------- */
 
+/* -------------------------------------------- POPULAR SECTION -------------------------------------------- */
+
+.card-popular {
+    height: 100%;
+    display: flex;
+}
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card.card-price {
+    align-self: flex-end;
+    flex: 1 1 auto;
+}
+.card-price p {
+    text-align: end;
+    margin: 0;
+}
+.card-price small {
+    font-family: 'PinkPanther';
+}
+
+/* -------------------------------------------- POPULAR SECTION -------------------------------------------- */
+
 /* -------------------------------------------- SLIDER -------------------------------------------- */
 .carousel-inner {
     border-radius: 15px;
