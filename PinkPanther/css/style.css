@@ -188,3 +188,75 @@
 }
 
 /* -------------------------------------------- REVIEW SECTION -------------------------------------------- */
+
+/* -------------------------------------------- MENU SECTION -------------------------------------------- */
+
+.menu-background-image {
+    background-size: cover;
+    height: 100vh;
+    background-image: url("../img/background3.jpg");
+}
+
+.menu-title {
+    text-align: center;
+    font-family: 'PinkPanther';
+    font-size: 50px;
+}
+
+.part-one {
+    border: 2px dashed black;
+    border-radius: 15px;
+}
+
+.menu-subtitle {
+    text-align: center;
+    font-family: 'PinkPanther';
+    font-size: 32px;
+}
+
+.menu-item {
+
+}
+
+.menu-item-up {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.menu-item-up .item-name {
+    font-size: 20px;
+    font-weight: bold;
+    order: 1;
+}
+
+.menu-item-up .dotted-line {
+    /*border-bottom: 4px dotted black; */  
+    order: 2;
+    background-image: radial-gradient(circle, currentcolor 1px, transparent 1.5px);
+    background-position: bottom;
+    background-size: 1ex 4.5px;
+    background-repeat: space no-repeat;
+    content: "";
+    flex-grow: 1;
+    height: 1em;
+}
+
+.menu-item-up .item-price {
+    order: 3;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    /*box-shadow: 0px 0px 5px deeppink;
+    background-color: hotpink;*/
+    background-image: linear-gradient(to bottom right, lightcoral, hotpink);
+}
+
+.menu-item-down p {
+    font-family: EBGaramondItalic;
+}
+
+
+/* -------------------------------------------- MENU SECTION -------------------------------------------- */
