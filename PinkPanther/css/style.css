@@ -190,13 +190,13 @@
 /* -------------------------------------------- REVIEW SECTION -------------------------------------------- */
 
 /* -------------------------------------------- MENU SECTION -------------------------------------------- */
-
+/*
 .menu-background-image {
     background-size: cover;
     height: 100vh;
     background-image: url("../img/background3.jpg");
 }
-
+*/
 .menu-title {
     text-align: center;
     font-family: 'PinkPanther';
@@ -206,6 +206,7 @@
 .part-one {
     border: 2px dashed black;
     border-radius: 15px;
+    background-color: pink;
 }
 
 .menu-subtitle {
@@ -260,3 +261,14 @@
 
 
 /* -------------------------------------------- MENU SECTION -------------------------------------------- */
+
+.map-section {
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.map-section iframe {
+    width: 100%;
+    height: 100%;
+}
