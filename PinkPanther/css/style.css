@@ -33,9 +33,43 @@
     width: 40px;
 }
 
+.navbar-nav .nav-link, .goog-te-combo {
+    font-size: 20px !important;
+}
+.goog-te-combo {
+    border-radius: 1px;
+    border: none;
+    font-family: 'EBGaramondRegular' !important;
+    width: 100%;
+    background-color: pink;
+    text-align: center;
+    padding: 0.6rem 0;
+    color: rgba(0,0,0,.55);
+}
+.goog-te-gadget {
+    color: white !important;
+}
+.goog-logo-link {
+    display: none;
+}
+.nav-link {
+    display: flex !important;
+    justify-content: center;
+    background-color: pink;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.goog-te-combo option {
+    background-color: white;
+}
+
 /* -------------------------------------------- NAVBAR -------------------------------------------- */
 
 /* -------------------------------------------- MAIN SECTION -------------------------------------------- */
+
+.main-section {
+    margin-top: 60px;
+}
 
 .main-image img {
     width: 75%;
@@ -273,33 +307,4 @@
     height: 100%;
 }
 
-.goog-te-combo {
-    border-radius: 1px;
-    border: none;
-    font-family: 'EBGaramondRegular' !important;
-    font-size: 1rem !important;
-    
-    width: 100%;
-    background-color: pink;
-    text-align: center;
-    height: 40px;
-    color: rgba(0,0,0,.55);
-}
-.goog-te-gadget {
-    color: white !important;
-}
-.goog-logo-link {
-    display: none;
-}
-
-.nav-link {
-    display: flex !important;
-    justify-content: center;
-    background-color: pink;
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-
-.goog-te-combo option {
-    background-color: white;
-}
+/**/
