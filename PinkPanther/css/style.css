@@ -238,7 +238,7 @@
 }
 
 .part-one {
-    border: 2px dashed black;
+    box-shadow: 0 0.25rem 1rem 0 grey;
     border-radius: 15px;
     background-color: pink;
 }
