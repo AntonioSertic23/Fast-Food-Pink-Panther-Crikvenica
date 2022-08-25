@@ -224,13 +224,11 @@
 /* -------------------------------------------- REVIEW SECTION -------------------------------------------- */
 
 /* -------------------------------------------- MENU SECTION -------------------------------------------- */
-/*
+
 .menu-background-image {
-    background-size: cover;
-    height: 100vh;
-    background-image: url("../img/background3.jpg");
+    margin-top: 60px;
 }
-*/
+
 .menu-title {
     text-align: center;
     font-family: 'PinkPanther';
