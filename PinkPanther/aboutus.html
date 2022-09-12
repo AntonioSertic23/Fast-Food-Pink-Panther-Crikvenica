@@ -1,392 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fast Food Pink Panther Crikvenica</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fast Food Pink Panther Crikvenica</title>
 
-  <link rel="stylesheet" href="css/style.css">
-  <link href="assets/plugins/bootstrap-5.0.2-dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="assets/plugins/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css"
+    />
 
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
 
-  <style>
-.timeline_area {
-    position: relative;
-    z-index: 1;
-}
-.single-timeline-area {
-    position: relative;
-    z-index: 1;
-    padding-left: 180px;
-}
-@media only screen and (max-width: 575px) {
-    .single-timeline-area {
-        padding-left: 100px;
-    }
-}
-.single-timeline-area .timeline-date {
-    position: absolute;
-    width: 180px;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -ms-grid-row-align: center;
-    align-items: center;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
-    padding-right: 60px;
-}
-@media only screen and (max-width: 575px) {
-    .single-timeline-area .timeline-date {
-        width: 100px;
-    }
-}
-.single-timeline-area .timeline-date::after {
-    position: absolute;
-    width: 3px;
-    height: 100%;
-    content: "";
-    background-color: pink;
-    top: 0;
-    right: 30px;
-    z-index: 1;
-}
-.single-timeline-area .timeline-date::before {
-    position: absolute;
-    width: 11px;
-    height: 11px;
-    border-radius: 50%;
-    background-color: deeppink;
-    content: "";
-    top: 50%;
-    right: 26px;
-    z-index: 5;
-    margin-top: -5.5px;
-}
-.single-timeline-area .timeline-arrow::before {
-    background-image: url("./img/down-arrow-pink.png");
-    width: 50px;
-    height: 50px;
-    border-radius: 0;
-    background-size: cover;
-    background-color: unset;
-    right: 7px;
-    top: 100%;
-}
+    <style>
+      .timeline_area {
+        position: relative;
+        z-index: 1;
+      }
+      .single-timeline-area {
+        position: relative;
+        z-index: 1;
+        padding-left: 112px;
+      }
+      @media only screen and (max-width: 575px) {
+        .single-timeline-area {
+          padding-left: 100px;
+        }
+      }
+      .single-timeline-area .timeline-date {
+        position: absolute;
+        width: 112px;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -ms-grid-row-align: center;
+        align-items: center;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        padding-right: 60px;
+      }
+      @media only screen and (max-width: 575px) {
+        .single-timeline-area .timeline-date {
+          width: 100px;
+        }
+      }
+      .single-timeline-area .timeline-date::after {
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        content: "";
+        background-color: pink;
+        top: 0;
+        right: 30px;
+        z-index: 1;
+      }
+      .single-timeline-area .timeline-date::before {
+        position: absolute;
+        width: 11px;
+        height: 11px;
+        border-radius: 50%;
+        background-color: deeppink;
+        content: "";
+        top: 50%;
+        right: 26px;
+        z-index: 5;
+        margin-top: -5.5px;
+      }
+      .single-timeline-area .timeline-arrow::before {
+        background-image: url("./img/down-arrow-pink.png");
+        width: 50px;
+        height: 50px;
+        border-radius: 0;
+        background-size: cover;
+        background-color: unset;
+        right: 7px;
+        top: 100%;
+      }
 
-.single-timeline-area .timeline-date p {
-    margin-bottom: 0;
-    color: #020710;
-    -webkit-transform: rotate(-90deg);
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'EBGaramondItalic';
-}
-.single-timeline-area .single-timeline-content {
-    position: relative;
-    z-index: 1;
-    padding: 30px 30px 25px;
-    border-radius: 6px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
-    box-shadow: 0 0.25rem 1rem 0 gray;
-}
-@media only screen and (max-width: 575px) {
-    .single-timeline-area .single-timeline-content {
-        padding: 20px;
-    }
-}
-.single-timeline-area .single-timeline-content .timeline-icon {
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-    width: 30px;
-    height: 30px;
-    background-color: #f1c40f;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 30px;
-    flex: 0 0 30px;
-    text-align: center;
-    max-width: 30px;
-    border-radius: 50%;
-    margin-right: 15px;
-}
-.single-timeline-area .single-timeline-content .timeline-icon i {
-    color: #ffffff;
-    line-height: 30px;
-}
-.single-timeline-area .single-timeline-content .timeline-text h6 {
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-}
-.single-timeline-area .single-timeline-content .timeline-text p {
-    font-size: 15px;
-    margin-bottom: 0;
-}
-.single-timeline-area .single-timeline-content:hover .timeline-icon,
-.single-timeline-area .single-timeline-content:focus .timeline-icon {
-    background-color: #020710;
-}
-.single-timeline-area .single-timeline-content:hover .timeline-text h6,
-.single-timeline-area .single-timeline-content:focus .timeline-text h6 {
-    color: #3f43fd;
-}
+      .single-timeline-area .timeline-date p {
+        margin-bottom: 0;
+        color: #020710;
+        -webkit-transform: rotate(-90deg);
+        font-size: 24px;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: "EBGaramondItalic";
+      }
+      .single-timeline-area .single-timeline-content {
+        position: relative;
+        z-index: 1;
+        padding: 30px 30px 25px;
+        border-radius: 6px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
+        box-shadow: 0 0.25rem 1rem 0 gray;
+      }
+      @media only screen and (max-width: 575px) {
+        .single-timeline-area .single-timeline-content {
+          padding: 20px;
+        }
+      }
+      .single-timeline-area .single-timeline-content .timeline-icon {
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+        width: 30px;
+        height: 30px;
+        background-color: #f1c40f;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 30px;
+        flex: 0 0 30px;
+        text-align: center;
+        max-width: 30px;
+        border-radius: 50%;
+        margin-right: 15px;
+      }
+      .single-timeline-area .single-timeline-content .timeline-icon i {
+        color: #ffffff;
+        line-height: 30px;
+      }
+      .single-timeline-area .single-timeline-content .timeline-text h6 {
+        -webkit-transition-duration: 500ms;
+        transition-duration: 500ms;
+      }
+      .single-timeline-area .single-timeline-content .timeline-text p {
+        font-size: 15px;
+        margin-bottom: 0;
+      }
+      .single-timeline-area .single-timeline-content:hover .timeline-icon,
+      .single-timeline-area .single-timeline-content:focus .timeline-icon {
+        background-color: #020710;
+      }
+      .single-timeline-area .single-timeline-content:hover .timeline-text h6,
+      .single-timeline-area .single-timeline-content:focus .timeline-text h6 {
+        color: #3f43fd;
+      }
 
-.timeline-image img {
-    max-width: 100%;
-    max-height: 100%;
-}
-.last-text p {
-    font-size: 20px !important;
-}
-.menu-subtitle {
-    font-family: 'EBGaramondRegular';
-    font-size: 22px;
-}
-.aboutus-description {
-    font-size: 20px;
-    /*
+      .timeline-image img {
+        max-width: 100%;
+        max-height: 100%;
+      }
+      .last-text p {
+        font-size: 20px !important;
+      }
+      .menu-subtitle {
+        font-family: "EBGaramondRegular";
+        font-size: 22px;
+      }
+      .aboutus-description {
+        font-size: 20px;
+        /*
     border-top: 3px solid pink;
     border-bottom: 3px solid pink;
     */
-}
-  </style>
-
+      }
+    </style>
   </head>
-<body>
-<!-- NAVBAR -->
+  <body>
+    <!-- NAVBAR -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+      <div class="container-fluid">
         <a class="navbar-brand" href="#">
-            <span class="brand-icon">
-            <img src="./img/pinkpanther.png">
-            </span>Fast Food Pink Panther</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <span class="brand-icon"> <img src="./img/pinkpanther.png" /> </span
+          >Fast Food Pink Panther</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
+          <div class="navbar-nav mx-auto">
             <a class="nav-link" href="index.html">Početna</a>
             <a class="nav-link" href="menu.html">Meni</a>
             <a class="nav-link active" aria-current="page" href="#">O nama</a>
             <a class="nav-link" href="contact.html">Kontakt</a>
-
-            <span id="google_translate_element"></span>
-            <!--
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <span class="flag-icon">
-                    <img src="./img/flag_cro.png"/>
-                </span>Hrvatski
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">
-                    <span class="flag-icon">
-                    <img src="./img/flag_cro.png">
-                    </span>Hrvatski</a>
-                </li>
-                <li><a class="dropdown-item" href="#">
-                    <span class="flag-icon">
-                    <img src="./img/flag_uk.png">
-                    </span>Engleski</a>
-                </li>
-                </ul>
-            </li>
-            -->
-            </div>
+          </div>
+          <div class="ms-auto navbar-language-div d-grid me-lg-3">
+            <button type="button" class="btn btn-outline-danger">
+              Language
+            </button>
+            <!-- <span id="google_translate_element"></span> -->
+          </div>
         </div>
-        </div>
+      </div>
     </nav>
 
     <section class="main-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-sm-8 col-lg-6">
-                    <!-- Section Heading-->
-                    <div class="section_heading text-center mt-4">
-                        <p class="menu-title">O Nama</p>
-                        <p class="menu-subtitle">Kratka priča o nama i našem rastu</p>
-                        <div style="width: 60%;height: 5px;background-color: pink;border-radius: 5px;" class="my-5 mx-auto"></div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-6">
+            <!-- Section Heading-->
+            <div class="section_heading text-center mt-4">
+              <p class="menu-title">O Nama</p>
+              <p class="menu-subtitle">Kratka priča o nama i našem rastu</p>
+              <div
+                style="
+                  width: 60%;
+                  height: 5px;
+                  background-color: pink;
+                  border-radius: 5px;
+                "
+                class="my-5 mx-auto"
+              ></div>
 
-                        <div class="aboutus-description px-4 ">
-                            <p>Na lokaciji Vinodolska15, Crikvenica otvorili smo Fast Food "PINK PANTHER".</p>
-                            <p>Možete nam se obratiti s povjerenjem te probati sve iz ponude na našoj lokaciji, ali i uvjeriti se u brzu dostavu, ukoliko želite uživati u našoj ponudi na Vašoj kućnoj adresi.</p>
-                            <p>Zahvaljujući našem trudu i iskustvu u ponudi imamo, uz dnevne svježe meso, lepinje/somun i povrće - kvalitetnu ponudu uz ljubazno osoblje.</p>
-                        </div>
-                    </div>
-                </div>
+              <div class="aboutus-description px-4">
+                <p>
+                  Na lokaciji Vinodolska15, Crikvenica otvorili smo Fast Food
+                  "PINK PANTHER".
+                </p>
+                <p>
+                  Možete nam se obratiti s povjerenjem te probati sve iz ponude
+                  na našoj lokaciji, ali i uvjeriti se u brzu dostavu, ukoliko
+                  želite uživati u našoj ponudi na Vašoj kućnoj adresi.
+                </p>
+                <p>
+                  Zahvaljujući našem trudu i iskustvu u ponudi imamo, uz dnevne
+                  svježe meso, lepinje/somun i povrće - kvalitetnu ponudu uz
+                  ljubazno osoblje.
+                </p>
+              </div>
             </div>
-
-            <div class="row mt-5">
-                <div class="col-12">
-                    <!-- Timeline Area-->
-                    <div class="apland-timeline-area">
-                        <!-- Single Timeline Content-->
-                        <div class="single-timeline-area">
-                            <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                                <p>2020.</p>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-4">
-                                    <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                                        <div class="row">
-                                            <div class="timeline-text">
-                                                <p>Na lokaciji Vinodolska15, Crikvenica otvorili smo Fast Food "PINK PANTHER".</p>
-                                            </div>
-                                            <div class="timeline-image mt-3">
-                                                <img src="./img/timeline_1.jpg">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Timeline Content-->
-                        <div class="single-timeline-area">
-                            <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                                <p>2021.</p>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-4">
-                                    <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                                        <div class="row">
-                                            <div class="timeline-text">
-                                                <p>Možete nam se obratiti s povjerenjem te probati sve iz ponude na našoj lokaciji, ali i uvjeriti se u brzu dostavu, ukoliko želite uživati u našoj ponudi na Vašoj kućnoj adresi.</p>
-                                            </div>
-                                            <div class="timeline-image mt-3">
-                                                <img src="./img/timeline_2.jpg">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Timeline Content-->
-                        <div class="single-timeline-area">
-                            <div class="timeline-date wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                                <p>2022.</p>
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-4">
-                                    <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                                        <div class="row">
-                                            <div class="timeline-text">
-                                                <p>Zahvaljujući našem trudu i iskustvu u ponudi imamo, uz dnevne svježe meso, lepinje/somun i povrće - kvalitetnu ponudu uz ljubazno osoblje.</p>
-                                            </div>
-                                            <div class="timeline-image mt-3">
-                                                <img src="./img/timeline_3.jpg">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Timeline Content-->
-                        <div class="single-timeline-area">
-                            <div class="timeline-date h-50 timeline-arrow wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInLeft;">
-                            </div>
-                            <div class="row">
-                                <div class="col-12 col-md-6 col-lg-4">
-                                    <div class="single-timeline-content d-flex wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
-                                        <div class="row">
-                                            <div class="timeline-text last-text">
-                                                <p>Nastavljamo rasti i dalje...</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="row mt-5">
+          <div class="col-12">
+            <!-- Timeline Area-->
+            <div class="apland-timeline-area mx-auto">
+              <!-- Single Timeline Content-->
+              <div class="single-timeline-area">
+                <div
+                  class="timeline-date wow fadeInLeft"
+                  data-wow-delay="0.1s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.1s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <p>2020.</p>
+                </div>
+                <div class="row">
+                  <div class="">
+                    <div
+                      class="single-timeline-content d-flex wow fadeInLeft"
+                      data-wow-delay="0.3s"
+                      style="
+                        visibility: visible;
+                        animation-delay: 0.3s;
+                        animation-name: fadeInLeft;
+                      "
+                    >
+                      <div class="row">
+                        <div class="timeline-text">
+                          <p>
+                            Na lokaciji Vinodolska15, Crikvenica otvorili smo
+                            Fast Food "PINK PANTHER".
+                          </p>
+                        </div>
+                        <div class="timeline-image mt-3">
+                          <img src="./img/timeline_1.jpg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Timeline Content-->
+              <div class="single-timeline-area">
+                <div
+                  class="timeline-date wow fadeInLeft"
+                  data-wow-delay="0.1s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.1s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <p>2021.</p>
+                </div>
+                <div class="row">
+                  <div class="">
+                    <div
+                      class="single-timeline-content d-flex wow fadeInLeft"
+                      data-wow-delay="0.3s"
+                      style="
+                        visibility: visible;
+                        animation-delay: 0.3s;
+                        animation-name: fadeInLeft;
+                      "
+                    >
+                      <div class="row">
+                        <div class="timeline-text">
+                          <p>
+                            Možete nam se obratiti s povjerenjem te probati sve
+                            iz ponude na našoj lokaciji, ali i uvjeriti se u
+                            brzu dostavu, ukoliko želite uživati u našoj ponudi
+                            na Vašoj kućnoj adresi.
+                          </p>
+                        </div>
+                        <div class="timeline-image mt-3">
+                          <img src="./img/timeline_2.jpg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Timeline Content-->
+              <div class="single-timeline-area">
+                <div
+                  class="timeline-date wow fadeInLeft"
+                  data-wow-delay="0.1s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.1s;
+                    animation-name: fadeInLeft;
+                  "
+                >
+                  <p>2022.</p>
+                </div>
+                <div class="row">
+                  <div class="">
+                    <div
+                      class="single-timeline-content d-flex wow fadeInLeft"
+                      data-wow-delay="0.3s"
+                      style="
+                        visibility: visible;
+                        animation-delay: 0.3s;
+                        animation-name: fadeInLeft;
+                      "
+                    >
+                      <div class="row">
+                        <div class="timeline-text">
+                          <p>
+                            Zahvaljujući našem trudu i iskustvu u ponudi imamo,
+                            uz dnevne svježe meso, lepinje/somun i povrće -
+                            kvalitetnu ponudu uz ljubazno osoblje.
+                          </p>
+                        </div>
+                        <div class="timeline-image mt-3">
+                          <img src="./img/timeline_3.jpg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Single Timeline Content-->
+              <div class="single-timeline-area w-100">
+                <div
+                  class="timeline-date h-50 timeline-arrow wow fadeInLeft"
+                  data-wow-delay="0.1s"
+                  style="
+                    visibility: visible;
+                    animation-delay: 0.1s;
+                    animation-name: fadeInLeft;
+                  "
+                ></div>
+                <div class="row">
+                  <div class="">
+                    <div
+                      class="single-timeline-content d-flex wow fadeInLeft"
+                      data-wow-delay="0.3s"
+                      style="
+                        visibility: visible;
+                        animation-delay: 0.3s;
+                        animation-name: fadeInLeft;
+                      "
+                    >
+                      <div class="row">
+                        <div class="timeline-text last-text">
+                          <p>Nastavljamo rasti i dalje...</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- FOOTER -->
     <footer class="text-center text-lg-start bg-light text-muted">
-        <section class="">
+      <section class="">
         <div class="container text-center text-md-start mt-5">
-            <div class="row mt-3">
-
+          <div class="row mt-3">
             <!-- Grid column 1 -->
             <div class="col-md-3 col-lg-4 col-xl-3 mx-auto my-4">
-                <h6 class="text-uppercase fw-bold mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
                 <i class="fas fa-gem me-3"></i>Fast Food Pink Panther Crikvenica
-                </h6>
-                <p>
-                "Napunit ćemo vaš trbuščić ukusnom hranom uz brzu dostavu!"
-                </p>
-                <a href="#" class="m-2">
-                <img src="./img/facebook.png">
-                </a>
-                <a href="#" class="m-2">
-                <img src="./img/instagram.png">
-                </a>
+              </h6>
+              <p>"Napunit ćemo vaš trbuščić ukusnom hranom uz brzu dostavu!"</p>
+              <a href="#" class="m-2">
+                <img src="./img/facebook.png" />
+              </a>
+              <a href="#" class="m-2">
+                <img src="./img/instagram.png" />
+              </a>
             </div>
             <!-- Grid column 1 -->
 
             <!-- Grid column -/- -->
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-sm-block"></div>
+            <div
+              class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 d-none d-sm-block"
+            ></div>
             <!-- Grid column -/- -->
 
             <!-- Grid column 2 -->
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto my-4">
-                <h6 class="text-uppercase fw-bold mb-4">
-                Stranice
-                </h6>
-                <p>
+              <h6 class="text-uppercase fw-bold mb-4">Stranice</h6>
+              <p>
                 <a href="#" class="text-reset">Meni</a>
-                </p>
-                <p>
+              </p>
+              <p>
                 <a href="#" class="text-reset">O nama</a>
-                </p>            
-                <p>
+              </p>
+              <p>
                 <a href="#" class="text-reset">Karta</a>
-                </p>
+              </p>
             </div>
             <!-- Grid column 2 -->
 
             <!-- Grid column 3 -->
             <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 my-4">
-                <h6 class="text-uppercase fw-bold mb-4">Kontakt</h6>
-                <p><i class="fa fa-home me-3"></i> Vinodolska ul. 15, 51260, Crikvenica</p>
-                <p><i class="fa fa-phone me-3"></i> + 0924022333</p>
+              <h6 class="text-uppercase fw-bold mb-4">Kontakt</h6>
+              <p>
+                <i class="fa fa-home me-3"></i> Vinodolska ul. 15, 51260,
+                Crikvenica
+              </p>
+              <p><i class="fa fa-phone me-3"></i> + 0924022333</p>
             </div>
             <!-- Grid column 3 -->
-
-            </div>
+          </div>
         </div>
-        </section>
+      </section>
 
-        <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      <!-- Copyright -->
+      <div
+        class="text-center p-4"
+        style="background-color: rgba(0, 0, 0, 0.05)"
+      >
         © 2022 Copyright:
         <p class="fw-bold m-0">Fast Food Pink Panther Crikvenica</p>
-        </div>
-        <!-- Copyright -->
+      </div>
+      <!-- Copyright -->
     </footer>
-  
-  <script src="assets/plugins/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 
-  <script type="text/javascript">
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
-    }
+    <script
+      src="assets/plugins/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          { pageLanguage: "en" },
+          "google_translate_element"
+        );
+      }
     </script>
-    
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
-</body>
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+  </body>
 </html>
