@@ -429,6 +429,7 @@
 
 /* -------------------------------------------- ABOUT US SECTION -------------------------------------------- */
 
+/* -------------------------------------------- MAP SECTION -------------------------------------------- */
 .map-section {
   height: 300px;
   /*border-radius: 20px;*/
@@ -440,4 +441,57 @@
   height: 100%;
 }
 
-/**/
+/* -------------------------------------------- MAP SECTION -------------------------------------------- */
+
+/* -------------------------------------------- CONTACT SECTION -------------------------------------------- */
+
+.contact-section {
+  font-size: 20px;
+}
+
+.free-delivery-badge {
+  color: hotpink;
+}
+
+@media (max-width: 767.98px) {
+  .contact-section {
+    font-size: 18px;
+  }
+}
+
+.working-time-item {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.working-time-item .item-name {
+  font-weight: bold;
+  order: 1;
+}
+
+.working-time-item .dotted-line {
+  /*border-bottom: 4px dotted black; */
+  order: 2;
+  background-image: radial-gradient(
+    circle,
+    currentcolor 1px,
+    transparent 1.5px
+  );
+  background-position: bottom;
+  background-size: 1ex 4.5px;
+  background-repeat: space no-repeat;
+  content: "";
+  flex-grow: 1;
+  height: 1em;
+}
+
+.working-time-item .item-time {
+  order: 3;
+  font-weight: bold;
+}
+.working-time-div .border-around {
+  border: 2px solid lightgray;
+  border-radius: 15px;
+}
+
+/* -------------------------------------------- CONTACT SECTION -------------------------------------------- */
