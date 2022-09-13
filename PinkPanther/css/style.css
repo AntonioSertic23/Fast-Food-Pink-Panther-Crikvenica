@@ -206,28 +206,34 @@
 
 /* -------------------------------------------- POPULAR SECTION -------------------------------------------- */
 
-.card-popular {
+.popular-section .card-popular {
   height: 100%;
   display: flex;
   box-shadow: 0 0.25rem 1rem 0 grey;
 }
 
-.card-body {
+.popular-section .card-body {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
 
-.card.card-price {
+.popular-section .card.card-price {
   align-self: flex-end;
   flex: 1 1 auto;
 }
-.card-price p {
+.popular-section .card-price p {
   text-align: end;
   margin: 0;
-}
-.card-price small {
+  font-size: 18px;
+  font-weight: bold;
   font-family: "PinkPanther";
+}
+.popular-section .card-title {
+  font-size: 24px;
+}
+.popular-section .card-text {
+  font-size: 18px;
 }
 
 /* -------------------------------------------- POPULAR SECTION -------------------------------------------- */
@@ -358,8 +364,8 @@
   border: 1px solid black;
   border-radius: 5px;
   padding: 4px;
-  /*box-shadow: 0px 0px 5px deeppink;
-    background-color: hotpink;*/
+  min-width: 49px;
+  text-align: center;
   background-image: linear-gradient(to bottom right, lightcoral, hotpink);
 }
 
@@ -386,6 +392,10 @@
   .menu-background-image {
     width: 50%;
   }
+}
+
+.reward p {
+  font-size: 18px;
 }
 
 /* -------------------------------------------- MENU SECTION -------------------------------------------- */
@@ -464,6 +474,25 @@
   border-radius: 15px;
   font-size: 18px;
   background-color: #fcd9d9;
+}
+/* širina badga */
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .new-free-delivery-badge {
+    width: 80%;
+  }
+}
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) {
+  .new-free-delivery-badge {
+    width: 70%;
+  }
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .new-free-delivery-badge {
+    width: 50%;
+  }
 }
 
 @media (max-width: 767.98px) {
