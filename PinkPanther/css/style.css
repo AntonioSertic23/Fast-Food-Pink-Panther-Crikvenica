@@ -203,6 +203,7 @@
 .card-popular {
   height: 100%;
   display: flex;
+  box-shadow: 0 0.25rem 1rem 0 grey;
 }
 
 .card-body {
@@ -490,8 +491,8 @@
   font-weight: bold;
 }
 .working-time-div .border-around {
-  border: 2px solid lightgray;
   border-radius: 15px;
+  box-shadow: 0 0.25rem 1rem 0 grey;
 }
 
 /* -------------------------------------------- CONTACT SECTION -------------------------------------------- */
