@@ -171,10 +171,11 @@
                 <a
                   type="button"
                   href="tel:0924022333"
-                  class="btn btn-dark w-75 main-triple-btn"
+                  class="btn btn-dark w-75 main-triple-btn position-relative"
                 >
                   <span class="me-2">Naruči</span>
                   <i class="bi bi-telephone-fill pl-2"></i>
+                  <img src="./img/free.png" class="free-badge-index" />
                 </a>
               </div>
 
@@ -242,41 +243,70 @@
     </section>
 
     <!-- CARDS SECTION -->
-    <section>
-      <!-- nema do daljnjega.. nepotrebno na mobitelu -->
-      <p>
-        Fast Food Pink Panther na svom rostilju pece meso sa Hr OPG-a iz srca
-        Like .... Tko je probao vjerujem da zna o čemu pricamo te se nadamo da
-        je prepoznao domace isamo domace. 2. stu 2021.
-      </p>
+    <section class="container card-section">
+      <div class="row mx-2 justify-content-center">
+        <div class="col-11 col-md-4 col-lg-3 me-lg-2 col-xxl-3 mb-4 mb-md-0">
+          <div class="card border-0 card-triple">
+            <img
+              src="./img/delivery_1.png"
+              class="card-img-top"
+              style="height: 150px; width: 150px; margin: auto"
+              alt="..."
+            />
+            <div class="card-body mt-3">
+              <h5 class="card-title text-center">Dostava</h5>
+              <p class="card-text text-center">Brza i besplatna dostava</p>
+            </div>
+          </div>
+        </div>
 
-      <p>
-        kreirati stranicu GLARIJA i staviti na tranicu meni gumb koji ce voditi
-        na nju za slike
-      </p>
+        <div class="col-11 col-md-4 col-lg-3 me-lg-2 col-xxl-3 mb-4 mb-md-0">
+          <div class="card border-0 card-triple">
+            <img
+              src="./img/vegetables_1.png"
+              class="card-img-top"
+              style="height: 150px; width: 150px; margin: auto"
+              alt="..."
+            />
+            <div class="card-body mt-3">
+              <h5 class="card-title text-center">Namirnice</h5>
+              <p class="card-text text-center">Uvijek svježe namirnice</p>
+            </div>
+          </div>
+        </div>
 
-      <p>
-        a onda se moze ubaciti i stranica NOVOSTI pa tamo pisati svaki mjesec
-        nesto novo.. vidit sa sestrom
-      </p>
+        <div class="col-11 col-md-4 col-lg-3 ms-lg-2 col-xxl-3">
+          <div class="card border-0 card-triple">
+            <img
+              src="./img/meat_3.png"
+              class="card-img-top"
+              style="height: 150px; width: 150px; margin: auto"
+              alt="..."
+            />
+            <div class="card-body mt-3">
+              <h5 class="card-title text-center">Meso</h5>
+              <p class="card-text text-center">Vrhunsko domaće meso</p>
+            </div>
+        </div>
+      </div>
     </section>
-
+    
     <!-- REVIEW SECTION -->
     <section class="container my-5">
       <h2 class="text-center mb-2 mb-lg-4">Vaši komentari</h2>
       <div class="row justify-content-center">
         <div
-          id="carouselExampleControls"
-          class="carousel slide col-md-9 col-lg-8 col-xl-7 col-xxl-6"
-          data-bs-ride="carousel"
+        id="carouselExampleControls"
+        class="carousel slide col-md-9 col-lg-8 col-xl-7 col-xxl-6"
+        data-bs-ride="carousel"
         >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="review-card p-4">
-                <div class="review-info row">
-                  <div class="col-3">
-                    <img
-                      src="./img/Review/profile_picture_1.jpg"
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="review-card p-4">
+              <div class="review-info row">
+                <div class="col-3">
+                  <img
+                  src="./img/Review/profile_picture_1.jpg"
                       class="review-profile-picture"
                       alt="..."
                     />
@@ -395,8 +425,23 @@
       </div>
     </section>
 
+    <p>
+      Fast Food Pink Panther na svom rostilju pece meso sa Hr OPG-a iz srca Like
+      .... Tko je probao vjerujem da zna o čemu pricamo te se nadamo da je
+      prepoznao domace isamo domace. 2. stu 2021.
+    </p>
+
+    <p>
+      kreirati stranicu GLARIJA i staviti na tranicu meni gumb koji ce voditi na
+      nju za slike
+    </p>
+
+    <p>
+      a onda se moze ubaciti i stranica NOVOSTI pa tamo pisati svaki mjesec
+      nesto novo.. vidit sa sestrom
+    </p>
     <!-- MAP SECTION -->
-    <div class="container map-section p-0">
+    <!--     <div class="container map-section p-0">
       <div class="row h-100 justify-content-center">
         <div class="col-10 p-0">
           <iframe
@@ -406,7 +451,7 @@
           ></iframe>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- FOOTER -->
     <footer class="text-center text-lg-start bg-light text-muted">
@@ -419,10 +464,16 @@
                 <i class="fas fa-gem me-3"></i>Fast Food Pink Panther Crikvenica
               </h6>
               <p>"Napunit ćemo vaš trbuščić ukusnom hranom uz brzu dostavu!"</p>
-              <a href="#" class="m-2">
+              <a
+                href="https://www.facebook.com/Fast-Food-Pink-Panther-Crikvenica-108903834810004"
+                class="m-2"
+              >
                 <img src="./img/facebook.png" />
               </a>
-              <a href="#" class="m-2">
+              <a
+                href="https://www.instagram.com/fasrfoodcrikvenica"
+                class="m-2"
+              >
                 <img src="./img/instagram.png" />
               </a>
             </div>
@@ -456,7 +507,9 @@
                 <i class="fa fa-home me-3"></i> Vinodolska ul. 15, 51260,
                 Crikvenica
               </p>
-              <p><i class="fa fa-phone me-3"></i> + 0924022333</p>
+              <a href="tel:0924022333" class="text-reset"
+                ><i class="fa fa-phone me-4"></i>0924022333</a
+              >
             </div>
             <!-- Grid column 3 -->
           </div>
