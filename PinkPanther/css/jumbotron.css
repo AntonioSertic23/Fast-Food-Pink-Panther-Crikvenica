@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "EBGaramondItalic";
+  src: URL("EB_Garamond/static/EBGaramond-Italic.ttf") format("truetype");
+}
+
+/* -------------------------------------------- NAVBAR -------------------------------------------- */
+
+.background-image {
+  background-size: cover;
+  height: 250px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/backgroundtop.jpg");
+  /* AKO JE PRE TAMNO ONDA TU VEC IMA ZA HOTPINK u komentaru https://www.rapidtables.com/web/color/pink-color.html*/
+  /* background-image: linear-gradient(
+        rgba(255, 105, 180, 0.5),
+        rgba(255, 105, 180, 0.5)
+      ),
+      url("../img/backgroundtop.jpg"); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.jumbotron-section {
+  margin-top: 68px;
+}
+
+.title {
+  color: white;
+  text-shadow: 2px 1px 2px black;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 36px;
+}
+
+.text-below-jumbotron h2 {
+  font-family: EBGaramondItalic;
+}
+
+@media (min-width: 992px) {
+  .background-image {
+    height: 320px;
+  }
+
+  .title {
+    text-shadow: 4px 3px 4px black;
+    letter-spacing: 2px;
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .jumbotron-section {
+    margin-top: 62px;
+  }
+}
+
+/* -------------------------------------------- NAVBAR -------------------------------------------- */

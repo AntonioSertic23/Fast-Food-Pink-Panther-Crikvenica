@@ -1,0 +1,42 @@
+
+- Vrhunsko meso opis
+
+                Fast Food Pink Panther na svom rostilju pece meso sa Hr OPG-a iz
+                srca Like .... Tko je probao vjerujem da zna o čemu pricamo te
+                se nadamo da je prepoznao domace isamo domace. 2. stu 2021.
+
+
+
+!! Dodati naslove index.html iznad map i cards sekcije
+
+
+
+Pitanja za Teu:
+
+1)
+Koliko godišnje košta to što je stranica na serveru, a koliko google maps?
+Može li bez google maps-a?
+
+2)
+Da li bi htjeli da im se pošalje stranica, a oni da samo stave na server?
+
+3)
+Jesu li voljni da im se svaka 3 mjeseca pošalju nove promjene i onda oni samo stave na server?
+
+
+
+Završni detalji..
+	a) Prebacit u Vue
+¸	b) Ubaciti prijevod i18n
+	c) Popuniti sa valjanim informacijama
+	d) Style Guide
+
+
+
+Upitno?
+	- Hotjar
+	- ADS
+	- Galerij
+	- Novosti
+	- Mini igra
+	- Anketa / Upitnik

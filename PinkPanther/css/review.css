@@ -1,0 +1,63 @@
+/* -------------------------------------------- REVIEW SECTION -------------------------------------------- */
+
+.carousel-item {
+  min-height: 210px;
+}
+
+.review-info {
+  height: 50px;
+  align-items: center;
+}
+
+.review-profile-picture {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.no-picture-1,
+.no-picture-2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-family: sans-serif;
+  font-size: 24px;
+  color: white;
+}
+.no-picture-1 {
+  background-color: orange;
+}
+.no-picture-2 {
+  background-color: green;
+}
+
+.review-btn-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  column-gap: 30px;
+}
+
+.review-btn {
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+}
+
+@media (min-width: 576px) {
+  .carousel-item {
+    min-height: 190px;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel-item {
+    min-height: 170px;
+  }
+}
+
+/* -------------------------------------------- REVIEW SECTION -------------------------------------------- */

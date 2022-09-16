@@ -1,0 +1,33 @@
+/* -------------------------------------------- MAIN SECTION -------------------------------------------- */
+
+.main-triple-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.main-triple {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-triple-icon {
+  width: 64px;
+}
+
+.main-triple-btn,
+.main-triple-btn {
+  font-size: 20px !important;
+}
+
+.free-badge-index {
+  width: 60px;
+  position: absolute;
+  right: 0;
+  margin-right: -15px;
+}
+
+/* -------------------------------------------- MAIN SECTION -------------------------------------------- */

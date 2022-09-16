@@ -1,0 +1,96 @@
+/* -------------------------------------------- CONTACT SECTION -------------------------------------------- */
+
+.contact-section {
+  font-size: 20px;
+  margin-top: 68px;
+}
+
+.menu-title {
+  text-align: center;
+  font-family: "PinkPanther";
+  font-size: 50px;
+}
+
+.pink-underline {
+  width: 60%;
+  height: 5px;
+  background-color: pink;
+  border-radius: 5px;
+}
+
+.free-delivery-badge {
+  color: hotpink;
+}
+.new-free-delivery-badge {
+  width: 60%;
+  border-radius: 15px;
+  font-size: 18px;
+  background-color: #fcd9d9;
+}
+/* širina badga */
+@media (max-width: 575.98px) {
+  .new-free-delivery-badge {
+    width: 80%;
+  }
+}
+@media (min-width: 1199.98px) {
+  .new-free-delivery-badge {
+    width: 70%;
+  }
+}
+@media (min-width: 1400px) {
+  .new-free-delivery-badge {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .contact-section {
+    font-size: 18px;
+  }
+}
+
+.working-time-item {
+  display: flex;
+  align-items: center;
+}
+.working-time-item .item-name {
+  font-weight: bold;
+  order: 1;
+}
+
+.working-time-item .dotted-line {
+  order: 2;
+  background-image: radial-gradient(
+    circle,
+    currentcolor 1px,
+    transparent 1.5px
+  );
+  background-position: bottom;
+  background-size: 1ex 4.5px;
+  background-repeat: space no-repeat;
+  content: "";
+  flex-grow: 1;
+  height: 1em;
+}
+
+.working-time-item .item-time {
+  order: 3;
+  font-weight: bold;
+}
+.working-time-div .border-around {
+  border-radius: 15px;
+  box-shadow: 0 0.25rem 1rem 0 grey;
+}
+
+.working-time-heading {
+  font-size: 32px;
+}
+
+.call-btn {
+  font-size: 26px !important;
+  background-color: hotpink !important;
+  box-shadow: 0 0.25rem 1rem 0 grey;
+}
+
+/* -------------------------------------------- CONTACT SECTION -------------------------------------------- */
