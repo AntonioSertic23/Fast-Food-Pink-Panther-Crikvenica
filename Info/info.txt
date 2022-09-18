@@ -7,10 +7,6 @@
 
 
 
-!! Dodati naslove index.html iznad map i cards sekcije
-
-
-
 Pitanja za Teu:
 
 1)

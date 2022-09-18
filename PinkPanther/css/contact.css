@@ -81,10 +81,17 @@
 .working-time-div .border-around {
   border-radius: 15px;
   box-shadow: 0 0.25rem 1rem 0 grey;
+  font-size: 24px;
+  background-color: pink;
+}
+@media (max-width: 576px) {
+  .working-time-div .border-around {
+    font-size: 18px;
+  }
 }
 
 .working-time-heading {
-  font-size: 32px;
+  font-size: 2.5rem;
 }
 
 .call-btn {

@@ -43,4 +43,11 @@
   }
 }
 
+/* kombinacija da itemi u navbaru ne prelaze preko loga */
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  .navbar-nav {
+    padding-left: 10% !important;
+  }
+}
+
 /* -------------------------------------------- NAVBAR -------------------------------------------- */
