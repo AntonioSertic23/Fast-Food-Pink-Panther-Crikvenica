@@ -8,8 +8,7 @@
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/navbar.css" />
-    <link rel="stylesheet" href="css/contact.css" />
-    <link rel="stylesheet" href="css/map.css" />
+    <link rel="stylesheet" href="css/news.css" />
     <link rel="stylesheet" href="css/footer.css" />
     <link
       href="assets/plugins/bootstrap-5.0.2-dist/css/bootstrap.min.css"
@@ -25,10 +24,6 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
-
-    <!-- MAP -->
-    <link rel="stylesheet" href="./assets/plugins/leaflet/leaflet.css" />
-    <script src="./assets/plugins/leaflet/leaflet.js"></script>
   </head>
   <body>
     <!-- NAVBAR -->
@@ -52,95 +47,115 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav mx-auto">
             <a class="nav-link" href="index.html">Početna</a>
-            <a class="nav-link" href="menu.html">Meni</a>
             <a class="nav-link" href="galery.html">Galerija</a>
-            <a class="nav-link" href="news.html">Novosti</a>
+            <a class="nav-link active" aria-current="page" href="#">Novosti</a>
             <a class="nav-link" href="aboutus.html">O nama</a>
-            <a class="nav-link active" aria-current="page" href="#">Kontakt</a>
+            <a class="nav-link" href="contact.html">Kontakt</a>
           </div>
           <div class="ms-auto navbar-language-div d-grid me-lg-3">
             <button type="button" class="btn btn-outline-danger">
               Language
             </button>
-            <!-- <span id="google_translate_element"></span> -->
           </div>
         </div>
       </div>
     </nav>
 
-    <!-- CONTACT SECTION -->
-    <section class="container contact-section">
-      <div class="col-lg-8 col-xxl-6 p-4 pb-0 mx-auto">
-        <p class="menu-title">Kontakt</p>
+    <!-- NEWS SECTION -->
+    <section class="container mb-2 news-section">
+      <div class="p-4">
+        <p class="news-title">Novosti</p>
 
-        <div class="my-4 mx-auto pink-underline"></div>
-
-        <div class="contact-information px-md-4 mt-5 mb-4">
-          <div class="working-time-div my-5 text-center">
-            <p class="working-time-heading">Radno vrijeme</p>
-            <div class="row mb-5 mt-4 gap-3 border-around p-4 p-md-5">
-              <div class="working-time-item">
-                <div class="item-name">PON</div>
-                <div class="dotted-line mx-3"></div>
-                <div class="item-time">CLOSED</div>
-              </div>
-              <div class="working-time-item">
-                <div class="item-name">UTO - PET</div>
-                <div class="dotted-line mx-3"></div>
-                <div class="item-time">10:00 - 22:00</div>
-              </div>
-              <div class="working-time-item">
-                <div class="item-name">SUB - NED</div>
-                <div class="dotted-line mx-3"></div>
-                <div class="item-time">12:00 - 24:00</div>
+        <div class="my-5">
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-5 justify-content-center"
+          >
+            <div class="col">
+              <div class="card border-0 card-news">
+                <div class="card-image">
+                  <img src="./img/timeline_3_min.jpg" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Dan maškara</h5>
+                  <p class="card-text p-2">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Exercitationem earum asperiores accusantium magni? Maxime
+                    molestias natus in illum cupiditate necessitatibus...
+                  </p>
+                  <div class="card-bottom text-end">
+                    <a href="single-news.html" class="btn">Pročitaj više...</a>
+                  </div>
+                </div>
               </div>
             </div>
-            <a class="call-btn btn mb-0 mx-auto w-auto" href="tel:0924022333"
-              ><i class="fa fa-phone me-2"></i>
-              0924022333
-            </a>
-          </div>
 
-          <div class="address-div my-5 text-center">
-            <p class="fw-bold">FAST FOOD "PINK PANTHER"</p>
-            <p>RALEVU j.d.o.o.</p>
-            <p>Vinodolska ul. 15</p>
-            <p>51260, Crikvenica</p>
-            <p class="free-delivery-badge fw-bold">
-              *Besplatna dostava na području Crikvenice i Vinodolske općine
-            </p>
-          </div>
+            <div class="col">
+              <div class="card border-0 card-news">
+                <div class="card-image">
+                  <img src="./img/timeline_1.jpg" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Službeno otvaranje</h5>
+                  <p class="card-text p-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Harum quas impedit velit provident in culpa consequatur
+                    mollitia saepe incidunt porro...
+                  </p>
+                  <div class="card-bottom text-end">
+                    <a href="single-news.html" class="btn">Pročitaj više...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          <div class="social-media my-5 text-center">
-            <a href="#" class="m-2">
-              <img src="./img/facebook.png" />
-            </a>
-            <a href="#" class="m-2">
-              <img src="./img/instagram.png" />
-            </a>
-          </div>
+            <div class="col">
+              <div class="card border-0 card-news">
+                <div class="card-image">
+                  <img src="./img/timeline_2.jpg" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Nova dostava</h5>
+                  <p class="card-text p-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias, totam recusandae consectetur tempora molestiae
+                    necessitatibus a voluptatibus veniam similique ad...
+                  </p>
+                  <div class="card-bottom text-end">
+                    <a href="single-news.html" class="btn">Pročitaj više...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-          <div
-            class="more-information mt-5 d-flex align-items-center flex-column"
-          >
-            <p><span class="fw-bold me-2">OIB:</span>01149259808</p>
-            <p><span class="fw-bold me-2">TEL:</span>092 4022 333</p>
-            <p>
-              <span class="fw-bold me-2">EMAIL:</span>ratkovitunj03@gmail.com
-            </p>
+            <div class="col">
+              <div class="card border-0 card-news">
+                <div class="card-image">
+                  <img src="./img/timeline_2.jpg" alt="..." />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Nova dostava</h5>
+                  <p class="card-text p-2">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias, totam recusandae consectetur tempora molestiae
+                    necessitatibus a voluptatibus veniam similique ad...
+                  </p>
+                  <div class="card-bottom text-end">
+                    <a href="single-news.html" class="btn">Pročitaj više...</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center">
+              <p>
+                nesto kao da naznaci da je tu pocetak bio, nesto u obliku
+                obavjesti
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- MAP SECTION -->
-    <div class="container map-section p-0">
-      <div class="row h-100 justify-content-center">
-        <div class="col-10 p-0">
-          <div id="map"></div>
-        </div>
-      </div>
-    </div>
 
     <!-- FOOTER -->
     <footer class="text-center text-lg-start bg-light text-muted">
@@ -223,20 +238,5 @@
       type="text/javascript"
       src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
     ></script>
-
-    <!-- MAP -->
-    <script>
-      let mapOptions = {
-        center: [45.174586468460035, 14.692800115098791],
-        zoom: 16,
-      };
-      let map = new L.map("map", mapOptions);
-      let layer = new L.TileLayer(
-        "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-      );
-      map.addLayer(layer);
-      let marker = new L.Marker([45.174586468460035, 14.692800115098791]);
-      marker.addTo(map);
-    </script>
   </body>
 </html>

@@ -1,0 +1,40 @@
+.news-section {
+  margin-top: 68px;
+}
+
+.news-title {
+  text-align: center;
+  font-family: "PinkPanther";
+  font-size: 50px;
+}
+
+.card-news {
+  height: 100%;
+  display: flex;
+  box-shadow: 0 0.25rem 1rem 0 grey;
+}
+
+.card-image img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 32px;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.card-bottom a {
+  font-size: 20px;
+  background-color: hotpink;
+}
