@@ -25,14 +25,15 @@ Završni detalji..
 	a) Prebacit u Vue
 ¸	b) Ubaciti prijevod i18n
 	c) Popuniti sa valjanim informacijama
-	d) Style Guide
+	d) Sve dobrano pregledat
+	e) Style Guide
 
 
 
 Upitno?
 	- Hotjar
 	- ADS
-	- Galerij
-	- Novosti
-	- Mini igra
+	- Mini igra (Tic Tac Toe pink panter)
 	- Anketa / Upitnik
+	- Dark / Light teme
+	- Hosting (Netlify)

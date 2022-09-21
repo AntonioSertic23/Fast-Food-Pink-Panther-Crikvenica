@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "PinkPanther";
+  src: URL("fonts/Desigers.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "EBGaramondRegular";
+  src: URL("fonts/EB_Garamond/static/EBGaramond-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "EBGaramondItalic";
+  src: URL("fonts/EB_Garamond/static/EBGaramond-Italic.ttf") format("truetype");
+}
+
+* {
+  font-family: EBGaramondRegular;
+}
+
+.section-header {
+  font-size: 2.5rem;
+}
+
+nav a:hover,
+nav a.router-link-active,
+nav a.router-link-exact-active {
+  color: rgba(0, 0, 0, 1) !important;
+}
