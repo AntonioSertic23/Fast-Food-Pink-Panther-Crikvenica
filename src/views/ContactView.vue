@@ -1,15 +1,14 @@
 <script setup>
 import Footer from "../components/Layout/Footer.vue";
 import Map from "../components/Map.vue";
+import PageTitle from "../components/UI/PageTitle.vue";
 </script>
 
 <template>
   <section class="container contact-section">
-    <div class="col-lg-8 col-xxl-6 p-4 pb-0 mx-auto">
-      <p class="menu-title">Kontakt</p>
+    <PageTitle pageTitle="Kontakt" />
 
-      <div class="my-4 mx-auto pink-underline"></div>
-
+    <div class="col-lg-8 col-xxl-6 p-4 py-0 mx-auto">
       <div class="contact-information px-md-4 mt-5 mb-4">
         <div class="working-time-div my-5 text-center">
           <p class="working-time-heading">Radno vrijeme</p>
@@ -73,7 +72,6 @@ import Map from "../components/Map.vue";
 <style scoped>
 .contact-section {
   font-size: 20px;
-  margin-top: 68px;
 }
 
 .menu-title {

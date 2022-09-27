@@ -1,13 +1,14 @@
 <script setup>
 import Footer from "../components/Layout/Footer.vue";
+import PageTitle from "../components/UI/PageTitle.vue";
 </script>
 
 <template>
   <!-- MENU SECTION -->
   <section class="container mb-2 menu-section">
-    <div class="col-lg-8 col-xxl-6 p-3 mx-auto">
-      <p class="menu-title">Meni</p>
+    <PageTitle pageTitle="Meni" />
 
+    <div class="col-lg-8 col-xxl-6 p-3 pt-0 mx-auto">
       <div class="part-one p-4">
         <p class="menu-subtitle">Posebna ponuda</p>
 
@@ -190,10 +191,6 @@ import Footer from "../components/Layout/Footer.vue";
 </template>
 
 <style scoped>
-.menu-section {
-  margin-top: 68px;
-}
-
 .menu-title {
   text-align: center;
   font-family: "PinkPanther";

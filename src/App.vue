@@ -5,7 +5,13 @@ import Navbar from "./components/Layout/Navbar.vue";
 <template>
   <Navbar />
 
-  <RouterView />
+  <div class="body-div">
+    <RouterView />
+  </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.body-div {
+  margin-top: 68px;
+}
+</style>

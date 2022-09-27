@@ -1,13 +1,14 @@
 <script setup>
 import { RouterLink } from "vue-router";
 import Footer from "../components/Layout/Footer.vue";
+import PageTitle from "../components/UI/PageTitle.vue";
 </script>
 
 <template>
   <section class="container mb-2 news-section">
-    <div class="p-4">
-      <p class="news-title">Novosti</p>
+    <PageTitle pageTitle="Novosti" />
 
+    <div class="p-4 pt-0">
       <div class="my-5">
         <div
           class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-5 justify-content-center"
@@ -105,10 +106,6 @@ import Footer from "../components/Layout/Footer.vue";
 </template>
 
 <style scoped>
-.news-section {
-  margin-top: 68px;
-}
-
 .news-title {
   text-align: center;
   font-family: "PinkPanther";

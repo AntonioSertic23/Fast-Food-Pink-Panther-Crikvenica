@@ -36,10 +36,6 @@
   padding: 30px;
 }
 
-.jumbotron-section {
-  margin-top: 68px;
-}
-
 .title {
   color: white;
   text-shadow: 4px 3px 4px black;

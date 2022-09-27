@@ -1,14 +1,18 @@
 <script setup>
 import Footer from "../components/Layout/Footer.vue";
+import PageTitle from "../components/UI/PageTitle.vue";
 </script>
 
 <template>
   <section class="container mb-2 news-section">
-    <div class="p-4 col-md-11 col-lg-10 col-xl-8 col-xxl-7 mx-auto text-center">
-      <p class="news-title">Dan maškara</p>
-
-      <p class="news-date text-muted">19.9.2022.</p>
-
+    <PageTitle
+      pageTitle="Dan maškara"
+      pageSubTitle="19.9.2022."
+      isSingleNews="true"
+    ></PageTitle>
+    <div
+      class="p-4 pt-0 col-md-11 col-lg-10 col-xl-8 col-xxl-7 mx-auto text-center"
+    >
       <div class="news-text my-5">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
@@ -41,8 +45,7 @@ import Footer from "../components/Layout/Footer.vue";
 </template>
 
 <style scoped>
-.news-text,
-.news-date {
+.news-text {
   font-size: 22px;
 }
 </style>

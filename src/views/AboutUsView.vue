@@ -1,18 +1,19 @@
 <script setup>
 import Footer from "../components/Layout/Footer.vue";
+import PageTitle from "../components/UI/PageTitle.vue";
 </script>
 
 <template>
   <section class="aboutus-section">
     <div class="container">
+      <PageTitle
+        pageTitle="O Nama"
+        pageSubTitle="Kratka priča o nama i našem rastu"
+      ></PageTitle>
       <div class="row justify-content-center">
         <div class="col-12 col-md-8 col-lg-6">
           <!-- Section Heading-->
-          <div class="section_heading text-center mt-3">
-            <p class="menu-title">O Nama</p>
-            <p class="menu-subtitle">Kratka priča o nama i našem rastu</p>
-            <div class="my-5 mx-auto pink-underline"></div>
-
+          <div class="section_heading text-center">
             <div class="aboutus-description px-4">
               <p>
                 Na lokaciji Vinodolska15, Crikvenica otvorili smo Fast Food
@@ -198,10 +199,6 @@ import Footer from "../components/Layout/Footer.vue";
 </template>
 
 <style scoped>
-.aboutus-section {
-  margin-top: 68px;
-}
-
 .menu-title {
   text-align: center;
   font-family: "PinkPanther";

@@ -46,10 +46,6 @@
   flex-direction: column;
 }
 
-.popular-section .card.card-price {
-  align-self: flex-end;
-  flex: 1 1 auto;
-}
 .popular-section .card-price p {
   text-align: end;
   margin: 0;
