@@ -1,6 +1,5 @@
 <script setup>
 import { RouterLink } from "vue-router";
-import Footer from "../components/Layout/Footer.vue";
 import PageTitle from "../components/UI/PageTitle.vue";
 </script>
 
@@ -101,15 +100,13 @@ import PageTitle from "../components/UI/PageTitle.vue";
       </div>
     </div>
   </section>
-
-  <Footer />
 </template>
 
 <style scoped>
 .news-title {
   text-align: center;
   font-family: "PinkPanther";
-  font-size: 50px;
+  font-size: 48.83px;
 }
 
 .card-news {
@@ -131,11 +128,11 @@ import PageTitle from "../components/UI/PageTitle.vue";
 }
 
 .card-title {
-  font-size: 32px;
+  font-size: 31.25px;
 }
 
 .card-text {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .card-bottom a {

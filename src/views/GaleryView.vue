@@ -1,5 +1,4 @@
 <script setup>
-import Footer from "../components/Layout/Footer.vue";
 import PageTitle from "../components/UI/PageTitle.vue";
 </script>
 
@@ -64,7 +63,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
           <div class="col">
             <div class="card border-0 card-popular">
               <img src="../assets/img/Food/plata_4.jpg" alt="..." />
-              <div class="card-body justify-content-center">
+              <div class="card-body">
                 <h5 class="card-title">Plata 4</h5>
                 <p class="card-text">(Piletina, lepinja, umaci, povrće)</p>
                 <div class="card-price menu-item-up justify-content-end">
@@ -218,15 +217,13 @@ import PageTitle from "../components/UI/PageTitle.vue";
       </div>
     </div>
   </section>
-
-  <Footer />
 </template>
 
 <style scoped>
 .menu-subtitle {
   text-align: center;
   font-family: "PinkPanther";
-  font-size: 32px;
+  font-size: 31.25px;
 }
 
 .popular-section .card-popular {
@@ -281,5 +278,9 @@ import PageTitle from "../components/UI/PageTitle.vue";
 
 .menu-item-down p {
   font-family: EBGaramondItalic;
+}
+
+.card-title {
+  font-size: 25px;
 }
 </style>

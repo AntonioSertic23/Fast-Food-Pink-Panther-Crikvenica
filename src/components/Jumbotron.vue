@@ -41,7 +41,7 @@
   text-shadow: 4px 3px 4px black;
   font-weight: 700;
   letter-spacing: 2px;
-  font-size: 36px;
+  font-size: 39px;
 }
 
 .text-below-jumbotron h2 {
@@ -54,7 +54,7 @@
   }
 
   .title {
-    font-size: 60px;
+    font-size: 61px;
   }
 }
 

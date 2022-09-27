@@ -44,6 +44,7 @@ import { RouterLink } from "vue-router";
 
 .navbar-brand {
   font-family: PinkPanther !important;
+  font-size: 20px;
 }
 .brand-icon img {
   width: 40px;

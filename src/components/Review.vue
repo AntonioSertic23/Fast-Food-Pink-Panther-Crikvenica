@@ -118,6 +118,11 @@
 </template>
 
 <style scoped>
+.review-info,
+.review-text {
+  font-size: 16px;
+}
+
 .carousel-item {
   min-height: 210px;
 }

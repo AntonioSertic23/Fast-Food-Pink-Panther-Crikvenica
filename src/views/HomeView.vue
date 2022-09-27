@@ -5,7 +5,6 @@ import Popular from "../components/Popular.vue";
 import HomeCards from "../components/HomeCards.vue";
 import Review from "../components/Review.vue";
 import Map from "../components/Map.vue";
-import Footer from "../components/Layout/Footer.vue";
 </script>
 
 <template>
@@ -15,5 +14,4 @@ import Footer from "../components/Layout/Footer.vue";
   <HomeCards />
   <Review />
   <Map />
-  <Footer />
 </template>

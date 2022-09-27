@@ -1,6 +1,6 @@
 <script setup>
-import Footer from "../components/Layout/Footer.vue";
 import PageTitle from "../components/UI/PageTitle.vue";
+import Notice from "../components/UI/Notice.vue";
 </script>
 
 <template>
@@ -170,31 +170,20 @@ import PageTitle from "../components/UI/PageTitle.vue";
             <p class="m-0">piletina, lepinja, umaci, povrće</p>
           </div>
         </div>
-
-        <div class="part-one reward mt-5 px-2 px-md-4 py-3 text-center">
-          <h2>Samo za najgladnije</h2>
-          <p class="m-3">
-            Tko se u Pink Pantheru odvaži da pojede navedenu platu sa
-            predviđenim brojem osoba(6) unutar 40 minuta,te uspije smatrat će se
-            počašćenim.
-          </p>
-          <img src="../assets/img/free.png" class="free-badge" />
-          <div class="free-badge-div"></div>
-        </div>
       </div>
-
-      <div class="part-three p-4"></div>
     </div>
-  </section>
 
-  <Footer />
+    <Notice />
+
+    <div class="col-12 mb-5" style="height: 3rem"></div>
+  </section>
 </template>
 
 <style scoped>
 .menu-title {
   text-align: center;
   font-family: "PinkPanther";
-  font-size: 50px;
+  font-size: 48.83px;
 }
 
 .part-one {
@@ -206,7 +195,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
 .menu-subtitle {
   text-align: center;
   font-family: "PinkPanther";
-  font-size: 32px;
+  font-size: 31.25px;
 }
 
 .menu-item-up {
@@ -252,32 +241,17 @@ import PageTitle from "../components/UI/PageTitle.vue";
 }
 
 .reward p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .call-btn {
-  font-size: 26px !important;
+  font-size: 25px !important;
   background-color: hotpink !important;
   box-shadow: 0 0.25rem 1rem 0 grey;
 }
 
-.free-badge {
-  width: 80px;
-  float: right;
-  margin-top: -12px;
-}
-.free-badge-div {
-  float: right;
-  width: 80px;
-  box-shadow: 0 0.25rem 1rem 0 grey;
-  height: 38px;
-  margin-top: 21px;
-  margin-right: -80px;
-  border-radius: 10px;
-}
-
 .free-delivery-badge {
-  font-size: 32px;
+  font-size: 31.25px;
   font-weight: bold;
 }
 </style>

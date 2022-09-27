@@ -18,7 +18,7 @@
 }
 
 .section-header {
-  font-size: 2.5rem;
+  font-size: 39.06px;
 }
 
 nav a:hover,
@@ -26,3 +26,42 @@ nav a.router-link-active,
 nav a.router-link-exact-active {
   color: rgba(0, 0, 0, 1) !important;
 }
+
+/* Typography - 1.250 Major Third scale 
+
+          / 61px
+3.052rem  / 48.83px
+2.441rem  / 39px
+1.953rem  / 31.25px
+1.563rem  / 25px
+1.25rem   / 20px
+1rem      / 16px
+0.8rem    / 12.8px
+0.64rem   / 10.24px
+0.512rem  / 8.19px
+
+h1 {
+  font-size: 61px;
+}
+h2 {
+  font-size: 48.83px;
+}
+h3 {
+  font-size: 39px;
+}
+h4 {
+  font-size: 31.25px;
+}
+h5 {
+  font-size: 25px;
+}
+h6 {
+  font-size: 20px;
+}
+p {
+  font-size: 16px;
+}
+caption {
+  font-size: 12.8px;
+}
+*/

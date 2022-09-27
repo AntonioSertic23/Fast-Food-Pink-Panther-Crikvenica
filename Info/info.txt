@@ -1,4 +1,5 @@
 
+NOVOSTI - objava
 - Vrhunsko meso opis
 
                 Fast Food Pink Panther na svom rostilju pece meso sa Hr OPG-a iz
@@ -22,11 +23,10 @@ Jesu li voljni da im se svaka 3 mjeseca pošalju nove promjene i onda oni samo s
 
 
 Završni detalji..
-	a) Prebacit u Vue
-¸	b) Ubaciti prijevod i18n
-	c) Popuniti sa valjanim informacijama
-	d) Sve dobrano pregledat
-	e) Style Guide
+¸	a) Ubaciti prijevod i18n
+	b) Popuniti sa valjanim informacijama
+	c) Sve dobrano pregledat
+	d) Style Guide
 
 
 
@@ -37,3 +37,7 @@ Upitno?
 	- Anketa / Upitnik
 	- Dark / Light teme
 	- Hosting (Netlify)
+
+
+
+https://coolors.co/ffffff-f8f9fa-eeeeee-ffc0cb-ff69b4-ff1493-000000-f08080

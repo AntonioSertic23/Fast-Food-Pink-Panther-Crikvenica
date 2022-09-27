@@ -63,4 +63,10 @@
 .copyright-div {
   background-color: #eee;
 }
+
+.container,
+h6,
+.copyright-div {
+  font-size: 16px;
+}
 </style>

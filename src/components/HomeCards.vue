@@ -50,7 +50,7 @@
 }
 
 .card-section h5 {
-  font-size: 28px;
+  font-size: 31.25px;
 }
 
 .card-section .card-text {

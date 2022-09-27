@@ -20,15 +20,15 @@ export default {
   </div>
 </template>
 
-<style>
+<style scoped>
 .menu-title {
   font-family: "PinkPanther";
-  font-size: 50px;
+  font-size: 48.83px;
 }
 
 .menu-subtitle {
   font-family: "EBGaramondRegular";
-  font-size: 22px;
+  font-size: 25px;
 }
 
 .pink-underline {
@@ -39,6 +39,6 @@ export default {
 }
 
 .news-date {
-  font-size: 22px;
+  font-size: 25px;
 }
 </style>

@@ -1,5 +1,4 @@
 <script setup>
-import Footer from "../components/Layout/Footer.vue";
 import PageTitle from "../components/UI/PageTitle.vue";
 </script>
 
@@ -194,15 +193,13 @@ import PageTitle from "../components/UI/PageTitle.vue";
       </div>
     </div>
   </section>
-
-  <Footer />
 </template>
 
 <style scoped>
 .menu-title {
   text-align: center;
   font-family: "PinkPanther";
-  font-size: 50px;
+  font-size: 48.83px;
 }
 
 .pink-underline {
@@ -322,7 +319,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
   margin-bottom: 0;
   color: #020710;
   -webkit-transform: rotate(-90deg);
-  font-size: 24px;
+  font-size: 25px;
   text-transform: uppercase;
   font-weight: 500;
   font-family: "EBGaramondItalic";
@@ -365,7 +362,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
   transition-duration: 500ms;
 }
 .single-timeline-area .single-timeline-content .timeline-text p {
-  font-size: 15px;
+  font-size: 16px;
   margin-bottom: 0;
 }
 .single-timeline-area .single-timeline-content:hover .timeline-icon,
@@ -386,7 +383,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
 }
 .menu-subtitle {
   font-family: "EBGaramondRegular";
-  font-size: 22px;
+  font-size: 20px;
 }
 .aboutus-description {
   font-size: 20px;

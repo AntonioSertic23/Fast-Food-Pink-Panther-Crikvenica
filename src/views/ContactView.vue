@@ -1,5 +1,4 @@
 <script setup>
-import Footer from "../components/Layout/Footer.vue";
 import Map from "../components/Map.vue";
 import PageTitle from "../components/UI/PageTitle.vue";
 </script>
@@ -47,10 +46,10 @@ import PageTitle from "../components/UI/PageTitle.vue";
 
         <div class="social-media my-5 text-center">
           <a href="#" class="m-2">
-            <img src="./img/facebook.png" />
+            <img src="../assets/img/facebook.png" />
           </a>
           <a href="#" class="m-2">
-            <img src="./img/instagram.png" />
+            <img src="../assets/img/instagram.png" />
           </a>
         </div>
 
@@ -66,7 +65,6 @@ import PageTitle from "../components/UI/PageTitle.vue";
   </section>
 
   <Map />
-  <Footer />
 </template>
 
 <style scoped>
@@ -77,7 +75,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
 .menu-title {
   text-align: center;
   font-family: "PinkPanther";
-  font-size: 50px;
+  font-size: 48.83px;
 }
 
 .pink-underline {
@@ -93,7 +91,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
 .new-free-delivery-badge {
   width: 60%;
   border-radius: 15px;
-  font-size: 18px;
+  font-size: 20px;
   background-color: #fcd9d9;
 }
 /* širina badga */
@@ -115,7 +113,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
 
 @media (max-width: 767.98px) {
   .contact-section {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -150,21 +148,21 @@ import PageTitle from "../components/UI/PageTitle.vue";
 .working-time-div .border-around {
   border-radius: 15px;
   box-shadow: 0 0.25rem 1rem 0 grey;
-  font-size: 24px;
+  font-size: 20px;
   background-color: pink;
 }
 @media (max-width: 576px) {
   .working-time-div .border-around {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
 .working-time-heading {
-  font-size: 2.5rem;
+  font-size: 39.06px;
 }
 
 .call-btn {
-  font-size: 26px !important;
+  font-size: 25px !important;
   background-color: hotpink !important;
   box-shadow: 0 0.25rem 1rem 0 grey;
 }

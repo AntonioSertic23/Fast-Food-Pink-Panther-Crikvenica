@@ -46,18 +46,19 @@
   flex-direction: column;
 }
 
+.popular-section .card-title {
+  font-size: 25px;
+}
+.popular-section .card-text {
+  font-size: 16px;
+}
+
 .popular-section .card-price p {
   text-align: end;
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   font-family: "PinkPanther";
-}
-.popular-section .card-title {
-  font-size: 24px;
-}
-.popular-section .card-text {
-  font-size: 18px;
 }
 
 .card-img-top {

@@ -1,5 +1,4 @@
 <script setup>
-import Footer from "../components/Layout/Footer.vue";
 import PageTitle from "../components/UI/PageTitle.vue";
 </script>
 
@@ -40,12 +39,10 @@ import PageTitle from "../components/UI/PageTitle.vue";
       </div>
     </div>
   </section>
-
-  <Footer />
 </template>
 
 <style scoped>
 .news-text {
-  font-size: 22px;
+  font-size: 20px;
 }
 </style>
