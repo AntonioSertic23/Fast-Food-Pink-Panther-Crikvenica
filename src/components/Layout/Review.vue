@@ -4,16 +4,16 @@
     <div class="row justify-content-center">
       <div
         id="carouselExampleControls"
-        class="carousel slide col-md-9 col-lg-8 col-xl-7 col-xxl-6"
+        class="carousel slide col-md-10 col-lg-9 col-xl-8 col-xxl-7 px-4"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner">
+        <div class="carousel-inner p-sm-3 px-lg-5 pt-sm-1 pt-lg-3">
           <div class="carousel-item active">
             <div class="review-card p-4">
               <div class="review-info d-flex flex-row">
                 <div class="">
                   <img
-                    src="../assets/img/Review/profile_picture_1.jpg"
+                    src="../../assets/img/Review/profile_picture_1.jpg"
                     class="review-profile-picture"
                     alt="..."
                   />
@@ -125,6 +125,9 @@
 
 .carousel-inner {
   min-height: 220px;
+  margin-bottom: 1.5rem;
+  border-radius: 15px;
+  background-color: #ffebee;
 }
 
 .review-profile-picture {
@@ -167,6 +170,12 @@
 }
 
 @media (max-width: 576px) {
+  .carousel-inner {
+    min-height: 280px;
+  }
+}
+
+@media (max-width: 380px) {
   .carousel-inner {
     min-height: 320px;
   }

@@ -1,10 +1,10 @@
 <script setup>
-import Jumbotron from "../components/Jumbotron.vue";
-import HomeMain from "../components/HomeMain.vue";
-import Popular from "../components/Popular.vue";
-import HomeCards from "../components/HomeCards.vue";
-import Review from "../components/Review.vue";
-import Map from "../components/Map.vue";
+import Jumbotron from "../components/UI/Jumbotron.vue";
+import HomeMain from "../components/Layout/HomeMain.vue";
+import Popular from "../components/Layout/Popular.vue";
+import HomeCards from "../components/Layout/HomeCards.vue";
+import Review from "../components/Layout/Review.vue";
+import Map from "../components/UI/Map.vue";
 </script>
 
 <template>

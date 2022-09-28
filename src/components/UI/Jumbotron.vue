@@ -21,16 +21,11 @@
 .background-image {
   background-size: cover;
   height: 250px;
-  background-image: url("../assets/img/background5.jpg");
+  background-image: url("../../assets/img/background6.jpg");
+  background-position: center;
   /*
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/img/backgroundtop.jpg");*/
-  /* AKO JE PRE TAMNO ONDA TU VEC IMA ZA HOTPINK u komentaru https://www.rapidtables.com/web/color/pink-color.html*/
-  /* background-image: linear-gradient(
-        rgba(255, 105, 180, 0.5),
-        rgba(255, 105, 180, 0.5)
-      ),
-      url("../img/backgroundtop.jpg"); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../assets/img/backgroundtop.jpg");*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -39,8 +34,10 @@
 }
 
 .title {
-  color: white;
-  text-shadow: 4px 3px 4px black;
+  /*color: white;
+  text-shadow: 4px 3px 4px black;*/
+  color: black;
+  text-shadow: 2px 1px 4px #222;
   font-weight: 700;
   letter-spacing: 2px;
   font-size: 39px;
@@ -52,7 +49,7 @@
 
 @media (min-width: 992px) {
   .background-image {
-    height: 320px;
+    height: 420px;
   }
 
   .title {

@@ -4,7 +4,7 @@
     <div class="row mx-2 justify-content-center">
       <div class="col-11 col-md-6 col-lg-5 me-lg-3 col-xxl-4 mb-4 mb-md-0">
         <div class="card border-0 card-popular">
-          <img src="../assets/img/Food/burger-1.jpg" alt="..." />
+          <img src="../../assets/img/Food/burger-1.jpg" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Gurman burger u lepinji</h5>
             <p class="card-text">
@@ -19,7 +19,7 @@
 
       <div class="col-11 col-md-6 col-lg-5 ms-lg-3 col-xxl-4">
         <div class="card border-0 card-popular">
-          <img src="../assets/img/Food/burger-2.jpg" alt="..." />
+          <img src="../../assets/img/Food/burger-2.jpg" alt="..." />
           <div class="card-body">
             <h5 class="card-title">Chickenburger</h5>
             <p class="card-text">(Piletina, lepinja, umaci, povrće)</p>
@@ -39,6 +39,7 @@
   display: flex;
   box-shadow: 0 0.25rem 1rem 0 grey;
   border-radius: 15px;
+  background-color: #ffebee;
 }
 
 .popular-section .card-body {

@@ -5,7 +5,7 @@
       <div class="col-11 col-md-4 col-lg-3 me-lg-2 col-xxl-3 mb-4 mb-md-0">
         <div class="card border-0 card-triple">
           <img
-            src="../assets/img/delivery_1.png"
+            src="../../assets/img/delivery_1.png"
             class="card-img-top"
             alt="..."
           />
@@ -19,7 +19,7 @@
       <div class="col-11 col-md-4 col-lg-3 me-lg-2 col-xxl-3 mb-4 mb-md-0">
         <div class="card border-0 card-triple">
           <img
-            src="../assets/img/vegetables_1.png"
+            src="../../assets/img/vegetables_1.png"
             class="card-img-top"
             alt="..."
           />
@@ -32,7 +32,11 @@
 
       <div class="col-11 col-md-4 col-lg-3 ms-lg-2 col-xxl-3">
         <div class="card border-0 card-triple">
-          <img src="../assets/img/meat_3.png" class="card-img-top" alt="..." />
+          <img
+            src="../../assets/img/meat_3.png"
+            class="card-img-top"
+            alt="..."
+          />
           <div class="card-body mt-3">
             <h5 class="card-title text-center">Meso</h5>
             <p class="card-text text-center">Vrhunsko domaće meso</p>

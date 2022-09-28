@@ -47,31 +47,31 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="../assets/img/Food/burger-1.jpg"
+                  src="../../assets/img/Food/burger-1.jpg"
                   class="d-block w-100"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="../assets/img/Food/burger-2.jpg"
+                  src="../../assets/img/Food/burger-2.jpg"
                   class="d-block w-100"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="../assets/img/Food/burger-3.jpg"
+                  src="../../assets/img/Food/burger-3.jpg"
                   class="d-block w-100"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="../assets/img/Food/burger-4.jpg"
+                  src="../../assets/img/Food/burger-4.jpg"
                   class="d-block w-100"
                 />
               </div>
               <div class="carousel-item">
                 <img
-                  src="../assets/img/Food/burger-5.jpg"
+                  src="../../assets/img/Food/burger-5.jpg"
                   class="d-block w-100"
                 />
               </div>
@@ -110,40 +110,37 @@
             <div class="main-triple">
               <img
                 class="main-triple-icon"
-                src="../assets/img/delivery_1.png"
+                src="../../assets/img/delivery_1.png"
               />
               <a
                 type="button"
                 href="tel:0924022333"
-                class="btn btn-dark w-75 main-triple-btn position-relative"
+                class="btn btn-light w-75 main-triple-btn position-relative"
               >
                 <span class="me-2">Naruči</span>
-                <i class="bi bi-telephone-fill pl-2"></i>
-                <img src="../assets/img/free.png" class="free-badge-index" />
+                <img src="../../assets/img/free.png" class="free-badge-index" />
               </a>
             </div>
 
             <div class="main-triple">
-              <img class="main-triple-icon" src="../assets/img/map.png" />
+              <img class="main-triple-icon" src="../../assets/img/map.png" />
               <a
                 type="button"
                 href="#findus"
-                class="btn btn-dark w-75 main-triple-btn"
+                class="btn btn-light w-75 main-triple-btn"
               >
                 <span class="me-2">Pronađite nas</span>
-                <i class="bi bi-geo-alt-fill pl-2"></i>
               </a>
             </div>
 
             <div class="main-triple">
-              <img class="main-triple-icon" src="../assets/img/menu_2.png" />
+              <img class="main-triple-icon" src="../../assets/img/menu_2.png" />
               <a
                 type="button"
                 href="menu.html"
-                class="btn btn-dark w-75 main-triple-btn"
+                class="btn btn-light w-75 main-triple-btn"
               >
                 <span class="me-2">Meni</span>
-                <i class="bi bi-journal-bookmark-fill pl-2"></i>
               </a>
             </div>
           </div>
@@ -174,7 +171,9 @@
 
 .main-triple-btn,
 .main-triple-btn {
-  font-size: 20px !important;
+  font-size: 25px !important;
+  background-color: hotpink;
+  border-radius: 15px;
 }
 
 .free-badge-index {

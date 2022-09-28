@@ -231,6 +231,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
   display: flex;
   box-shadow: 0 0.25rem 1rem 0 grey;
   border-radius: 15px;
+  background-color: #ffebee;
 }
 
 .popular-section .card-body {

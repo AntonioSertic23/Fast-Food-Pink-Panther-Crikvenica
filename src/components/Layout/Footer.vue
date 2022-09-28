@@ -1,6 +1,6 @@
 <template>
-  <footer class="text-center text-lg-start bg-light text-muted">
-    <section class="">
+  <footer class="text-center text-lg-start">
+    <section class="main-footer-div">
       <div class="container text-center text-md-start mt-5">
         <div class="row mt-3">
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto my-4">
@@ -60,8 +60,12 @@
 </template>
 
 <style scoped>
+.main-footer-div {
+  background-color: #ffebee;
+}
+
 .copyright-div {
-  background-color: #eee;
+  background-color: pink;
 }
 
 .container,
