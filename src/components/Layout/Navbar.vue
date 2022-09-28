@@ -1,5 +1,12 @@
 <script setup>
 import { RouterLink } from "vue-router";
+
+function CloseNavbar() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+  if ($(".navbar-toggler").is(":visible")) {
+    $(".navbar-collapse").collapse("toggle");
+  }
+}
 </script>
 
 <template>
@@ -22,12 +29,24 @@ import { RouterLink } from "vue-router";
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav mx-auto">
-          <RouterLink class="nav-link" to="/">Početna</RouterLink>
-          <RouterLink class="nav-link" to="/menu">Meni</RouterLink>
-          <RouterLink class="nav-link" to="/gallery">Galerija</RouterLink>
-          <RouterLink class="nav-link" to="/news">Novosti</RouterLink>
-          <RouterLink class="nav-link" to="/aboutus">O nama</RouterLink>
-          <RouterLink class="nav-link" to="/contact">Kontakt</RouterLink>
+          <RouterLink class="nav-link" @click="CloseNavbar()" to="/"
+            >Početna</RouterLink
+          >
+          <RouterLink class="nav-link" @click="CloseNavbar()" to="/menu"
+            >Meni</RouterLink
+          >
+          <RouterLink class="nav-link" @click="CloseNavbar()" to="/gallery"
+            >Galerija</RouterLink
+          >
+          <RouterLink class="nav-link" @click="CloseNavbar()" to="/news"
+            >Novosti</RouterLink
+          >
+          <RouterLink class="nav-link" @click="CloseNavbar()" to="/aboutus"
+            >O nama</RouterLink
+          >
+          <RouterLink class="nav-link" @click="CloseNavbar()" to="/contact"
+            >Kontakt</RouterLink
+          >
         </div>
         <div class="ms-auto navbar-language-div d-grid me-lg-3">
           <button type="button" class="btn btn-outline-danger">Language</button>
