@@ -21,8 +21,10 @@
 .background-image {
   background-size: cover;
   height: 250px;
+  background-image: url("../assets/img/background5.jpg");
+  /*
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/img/backgroundtop.jpg");
+    url("../assets/img/backgroundtop.jpg");*/
   /* AKO JE PRE TAMNO ONDA TU VEC IMA ZA HOTPINK u komentaru https://www.rapidtables.com/web/color/pink-color.html*/
   /* background-image: linear-gradient(
         rgba(255, 105, 180, 0.5),
