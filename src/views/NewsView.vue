@@ -7,7 +7,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
   <section class="container mb-2 news-section">
     <PageTitle pageTitle="Novosti" />
 
-    <div class="p-4 pt-0">
+    <div class="p-4 pb-0 pt-0">
       <div class="my-5">
         <div
           class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-5 justify-content-center"
@@ -90,11 +90,17 @@ import PageTitle from "../components/UI/PageTitle.vue";
             </div>
           </div>
 
-          <div class="d-flex align-items-center">
-            <p>
-              nesto kao da naznaci da je tu pocetak bio, nesto u obliku
-              obavjesti
-            </p>
+          <div class="col">
+            <div class="card last-card border-0 card-news py-5">
+              <div class="card-body last-card-body">
+                <p class="card-text last-card-text-year text-center p-2">
+                  2019.
+                </p>
+                <p class="card-text last-card-text text-center p-2">
+                  Otvaranje Fast Food Pink Panthera u Crikvenici
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -141,5 +147,18 @@ import PageTitle from "../components/UI/PageTitle.vue";
 .card-bottom a {
   font-size: 20px;
   background-color: hotpink;
+}
+
+.last-card {
+  background-color: pink;
+}
+.last-card-body {
+  justify-content: center;
+}
+.last-card-text-year {
+  font-size: 39px;
+}
+.last-card-text {
+  font-size: 31.25px;
 }
 </style>

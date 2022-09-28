@@ -1,6 +1,7 @@
 <script setup>
 import PageTitle from "../components/UI/PageTitle.vue";
 import Notice from "../components/UI/Notice.vue";
+import { RouterLink } from "vue-router";
 </script>
 
 <template>
@@ -53,7 +54,7 @@ import Notice from "../components/UI/Notice.vue";
       </div>
 
       <div class="d-flex flex-column gap-4 text-center mt-4 mt-lg-5">
-        <p class="free-delivery-badge mb-0">BESPLATNA DOSTAVA</p>
+        <p class="free-delivery-notice mb-0">BESPLATNA DOSTAVA</p>
         <a class="call-btn btn mb-0 mx-auto w-auto" href="tel:0924022333"
           ><i class="fa fa-phone me-2"></i>
           0924022333
@@ -173,6 +174,13 @@ import Notice from "../components/UI/Notice.vue";
       </div>
     </div>
 
+    <div class="d-flex flex-column gap-4 text-center mt-4 mt-lg-5">
+      <p class="gallery-notice mb-0">Za slike pogledajte našu galeriju:</p>
+      <RouterLink class="gallery-btn btn mb-0 mx-auto w-auto" to="/gallery"
+        >GALERIJA</RouterLink
+      >
+    </div>
+
     <Notice />
 
     <div class="col-12 mb-5" style="height: 3rem"></div>
@@ -250,8 +258,17 @@ import Notice from "../components/UI/Notice.vue";
   box-shadow: 0 0.25rem 1rem 0 grey;
 }
 
-.free-delivery-badge {
+.free-delivery-notice {
   font-size: 31.25px;
   font-weight: bold;
+}
+
+.gallery-notice {
+  font-size: 25px;
+}
+.gallery-btn {
+  font-size: 20px;
+  background-color: hotpink !important;
+  box-shadow: 0 0.25rem 1rem 0 grey;
 }
 </style>

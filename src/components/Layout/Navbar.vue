@@ -24,7 +24,7 @@ import { RouterLink } from "vue-router";
         <div class="navbar-nav mx-auto">
           <RouterLink class="nav-link" to="/">Početna</RouterLink>
           <RouterLink class="nav-link" to="/menu">Meni</RouterLink>
-          <RouterLink class="nav-link" to="/galery">Galerija</RouterLink>
+          <RouterLink class="nav-link" to="/gallery">Galerija</RouterLink>
           <RouterLink class="nav-link" to="/news">Novosti</RouterLink>
           <RouterLink class="nav-link" to="/aboutus">O nama</RouterLink>
           <RouterLink class="nav-link" to="/contact">Kontakt</RouterLink>
