@@ -183,4 +183,8 @@
   right: 0;
   margin-right: -15px;
 }
+
+.carousel-inner {
+  border-radius: 15px;
+}
 </style>

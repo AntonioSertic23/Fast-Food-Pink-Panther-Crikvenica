@@ -333,6 +333,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
   margin-top: 15px;
   -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
   box-shadow: 0 0.25rem 1rem 0 gray;
+  border-radius: 15px;
 }
 @media only screen and (max-width: 575px) {
   .single-timeline-area .single-timeline-content {
@@ -377,6 +378,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
 .timeline-image img {
   max-width: 100%;
   max-height: 100%;
+  border-radius: 15px;
 }
 .last-text p {
   font-size: 20px !important;

@@ -57,10 +57,4 @@
     font-size: 61px;
   }
 }
-
-@media (max-width: 992px) {
-  .jumbotron-section {
-    margin-top: 62px;
-  }
-}
 </style>

@@ -10,15 +10,15 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="review-card p-4">
-              <div class="review-info row">
-                <div class="col-3">
+              <div class="review-info d-flex flex-row">
+                <div class="">
                   <img
                     src="../assets/img/Review/profile_picture_1.jpg"
                     class="review-profile-picture"
                     alt="..."
                   />
                 </div>
-                <div class="col-9 p-0">
+                <div class="ms-3">
                   <p class="m-0">Antonio Sertić</p>
                   <p class="m-0">
                     <span class="bi bi-star-fill"></span>
@@ -40,11 +40,11 @@
 
           <div class="carousel-item">
             <div class="review-card p-4">
-              <div class="review-info row">
-                <div class="col-3">
+              <div class="review-info d-flex flex-row">
+                <div class="">
                   <div class="review-profile-picture no-picture-1">A</div>
                 </div>
-                <div class="col-9 p-0">
+                <div class="ms-3">
                   <p class="m-0">Anna Derger</p>
                   <p class="m-0">
                     <span class="bi bi-star-fill"></span>
@@ -67,11 +67,11 @@
 
           <div class="carousel-item">
             <div class="review-card p-4">
-              <div class="review-info row">
-                <div class="col-3">
+              <div class="review-info d-flex flex-row">
+                <div class="">
                   <div class="review-profile-picture no-picture-2">A</div>
                 </div>
-                <div class="col-9 p-0">
+                <div class="ms-3">
                   <p class="m-0">Marina Sabljak</p>
                   <p class="m-0">
                     <span class="bi bi-star-fill"></span>
@@ -94,21 +94,21 @@
         </div>
         <div class="review-btn-div" id="findus">
           <button
-            class="review-btn btn-dark"
+            class="review-btn"
             type="button"
             data-bs-target="#carouselExampleControls"
             data-bs-slide="prev"
           >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <i class="fa fa-angle-left fa-2x" aria-hidden="true"></i>
             <span class="visually-hidden">Previous</span>
           </button>
           <button
-            class="review-btn btn-dark"
+            class="review-btn"
             type="button"
             data-bs-target="#carouselExampleControls"
             data-bs-slide="next"
           >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
@@ -120,21 +120,16 @@
 <style scoped>
 .review-info,
 .review-text {
-  font-size: 16px;
+  font-size: 20px;
 }
 
-.carousel-item {
-  min-height: 210px;
-}
-
-.review-info {
-  height: 50px;
-  align-items: center;
+.carousel-inner {
+  min-height: 220px;
 }
 
 .review-profile-picture {
-  height: 50px;
-  width: 50px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
 }
 
@@ -157,29 +152,23 @@
 .review-btn-div {
   display: flex;
   justify-content: center;
-  margin-top: 15px;
-  column-gap: 30px;
+  column-gap: 50px;
 }
 
 .review-btn {
   border: none;
   border-radius: 15px;
   display: flex;
-  height: 44px;
+  height: 50px;
+  width: 50px;
   align-items: center;
   justify-content: center;
-  opacity: 0.5;
+  background-color: hotpink;
 }
 
-@media (min-width: 576px) {
-  .carousel-item {
-    min-height: 190px;
-  }
-}
-
-@media (min-width: 992px) {
-  .carousel-item {
-    min-height: 170px;
+@media (max-width: 576px) {
+  .carousel-inner {
+    min-height: 320px;
   }
 }
 </style>

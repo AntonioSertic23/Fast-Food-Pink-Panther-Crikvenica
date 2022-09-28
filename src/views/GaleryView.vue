@@ -230,6 +230,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
   height: 100%;
   display: flex;
   box-shadow: 0 0.25rem 1rem 0 grey;
+  border-radius: 15px;
 }
 
 .popular-section .card-body {
@@ -282,5 +283,10 @@ import PageTitle from "../components/UI/PageTitle.vue";
 
 .card-title {
   font-size: 25px;
+}
+
+.card-popular img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 </style>

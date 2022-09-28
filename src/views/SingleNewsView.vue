@@ -45,4 +45,8 @@ import PageTitle from "../components/UI/PageTitle.vue";
 .news-text {
   font-size: 20px;
 }
+
+.news-images img {
+  border-radius: 15px;
+}
 </style>

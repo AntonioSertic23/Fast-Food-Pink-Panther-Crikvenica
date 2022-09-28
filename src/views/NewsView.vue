@@ -113,12 +113,15 @@ import PageTitle from "../components/UI/PageTitle.vue";
   height: 100%;
   display: flex;
   box-shadow: 0 0.25rem 1rem 0 grey;
+  border-radius: 15px;
 }
 
 .card-image img {
   height: 250px;
   width: 100%;
   object-fit: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .card-body {
