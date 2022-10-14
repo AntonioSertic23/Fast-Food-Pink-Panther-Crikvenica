@@ -124,7 +124,7 @@
 }
 
 .carousel-inner {
-  min-height: 220px;
+  min-height: 250px;
   margin-bottom: 1.5rem;
   border-radius: 15px;
   background-color: #ffebee;

@@ -1,0 +1,32 @@
+
+
+
+BLUE
+
+#5481AB Steel Blue
+#3A7CAC Steel Blue *
+
+#5BC0EB Cyan Process
+#537FBE Glaucous *
+
+
+
+GREEN
+
+#4C681F Dark Olive Green
+#5C6435 Dark Olive Green
+#273327 Pine Tree
+
+#71864D Maximum Green
+#5B613B Army Green *
+#32402F Kombu Green *
+
+
+
+PINK
+
+#FF69B4 Hot Pink
+#F977AA Cyclamen
+#FB79A7 Cyclamen -> bas sa slike on
+#FFC0CB Pink
+#F9C0C9 Pink -> bas sa slike njegov stomak

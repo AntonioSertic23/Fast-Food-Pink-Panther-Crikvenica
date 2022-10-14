@@ -41,3 +41,19 @@ Upitno?
 
 
 https://coolors.co/ffffff-f8f9fa-eeeeee-ffc0cb-ff69b4-ff1493-000000-f08080
+
+
+
+ONLINE TOOLS
+
+https://www.online-image-editor.com				- uređivanje png transparent slika
+https://www.photoroom.com/tools/remove-object-from-photo/	- micanje stvari sa slike
+
+
+https://github.com/bradtraversy/design-resources-for-developers#product--image-mockups 
+10 online tools to help you make quick mockup images of websites on any device
+https://smartmockups.com/mockups/screen-layers
+https://mockupbro.com
+
+
+https://slidesgo.com/themes?premium=0&color=pink¸	- Za powerpoint style guide
