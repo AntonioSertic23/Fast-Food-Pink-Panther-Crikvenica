@@ -334,7 +334,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
   -webkit-box-shadow: 0 0.25rem 1rem 0 rgba(47, 91, 234, 0.125);
   box-shadow: 0 0.25rem 1rem 0 gray;
   border-radius: 15px;
-  background-color: #ffebee;
+  background-color: pink;
 }
 @media only screen and (max-width: 575px) {
   .single-timeline-area .single-timeline-content {

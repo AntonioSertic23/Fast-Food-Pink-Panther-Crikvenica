@@ -26,7 +26,5 @@ GREEN
 PINK
 
 #FF69B4 Hot Pink
-#F977AA Cyclamen
-#FB79A7 Cyclamen -> bas sa slike on
+#F977AA Cyclamen **
 #FFC0CB Pink
-#F9C0C9 Pink -> bas sa slike njegov stomak

@@ -86,29 +86,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
 }
 
 .free-delivery-badge {
-  color: hotpink;
-}
-.new-free-delivery-badge {
-  width: 60%;
-  border-radius: 15px;
-  font-size: 20px;
-  background-color: #fcd9d9;
-}
-/* širina badga */
-@media (max-width: 575.98px) {
-  .new-free-delivery-badge {
-    width: 80%;
-  }
-}
-@media (min-width: 1199.98px) {
-  .new-free-delivery-badge {
-    width: 70%;
-  }
-}
-@media (min-width: 1400px) {
-  .new-free-delivery-badge {
-    width: 50%;
-  }
+  color: #f977aa;
 }
 
 @media (max-width: 767.98px) {
@@ -163,7 +141,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
 
 .call-btn {
   font-size: 25px !important;
-  background-color: hotpink !important;
+  background-color: #f977aa !important;
   box-shadow: 0 0.25rem 1rem 0 grey;
 }
 </style>

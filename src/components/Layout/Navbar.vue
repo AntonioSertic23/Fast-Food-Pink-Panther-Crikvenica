@@ -59,7 +59,6 @@ function CloseNavbar() {
 <style scoped>
 .navbar {
   min-height: 62px;
-  border-bottom: 2px solid gray;
 }
 
 .navbar-brand {

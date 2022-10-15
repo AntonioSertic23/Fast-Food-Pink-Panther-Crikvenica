@@ -39,7 +39,7 @@
   display: flex;
   box-shadow: 0 0.25rem 1rem 0 grey;
   border-radius: 15px;
-  background-color: #ffebee;
+  background-color: pink;
 }
 
 .popular-section .card-body {

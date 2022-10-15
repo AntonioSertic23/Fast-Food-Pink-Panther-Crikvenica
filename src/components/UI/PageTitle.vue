@@ -34,7 +34,7 @@ export default {
 .pink-underline {
   width: 60%;
   height: 5px;
-  background-color: pink;
+  background-color: #f977aa;
   border-radius: 5px;
 }
 

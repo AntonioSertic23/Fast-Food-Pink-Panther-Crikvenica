@@ -2,6 +2,10 @@
 import PageTitle from "../components/UI/PageTitle.vue";
 import Notice from "../components/UI/Notice.vue";
 import { RouterLink } from "vue-router";
+
+function ScrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 </script>
 
 <template>
@@ -176,7 +180,10 @@ import { RouterLink } from "vue-router";
 
     <div class="d-flex flex-column gap-4 text-center mt-4 mt-lg-5">
       <p class="gallery-notice mb-0">Za slike pogledajte našu galeriju:</p>
-      <RouterLink class="gallery-btn btn mb-0 mx-auto w-auto" to="/gallery"
+      <RouterLink
+        class="gallery-btn btn mb-0 mx-auto w-auto"
+        to="/gallery"
+        @click="ScrollToTop()"
         >GALERIJA</RouterLink
       >
     </div>
@@ -254,7 +261,7 @@ import { RouterLink } from "vue-router";
 
 .call-btn {
   font-size: 25px !important;
-  background-color: hotpink !important;
+  background-color: #f977aa !important;
   box-shadow: 0 0.25rem 1rem 0 grey;
 }
 
@@ -268,7 +275,7 @@ import { RouterLink } from "vue-router";
 }
 .gallery-btn {
   font-size: 20px;
-  background-color: hotpink !important;
+  background-color: #f977aa !important;
   box-shadow: 0 0.25rem 1rem 0 grey;
 }
 </style>

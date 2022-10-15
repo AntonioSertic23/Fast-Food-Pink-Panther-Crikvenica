@@ -127,7 +127,7 @@
   min-height: 250px;
   margin-bottom: 1.5rem;
   border-radius: 15px;
-  background-color: #ffebee;
+  background-color: pink;
 }
 
 .review-profile-picture {
@@ -166,7 +166,7 @@
   width: 50px;
   align-items: center;
   justify-content: center;
-  background-color: hotpink;
+  background-color: #f977aa;
 }
 
 @media (max-width: 576px) {

@@ -1,6 +1,14 @@
+<script setup>
+import { RouterLink } from "vue-router";
+
+function ScrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+</script>
+
 <template>
   <footer class="text-center text-lg-start">
-    <section class="main-footer-div">
+    <section class="main-footer-div bg-light">
       <div class="container text-center text-md-start mt-5">
         <div class="row mt-3">
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto my-4">
@@ -10,7 +18,7 @@
             <p>"Napunit ćemo vaš trbuščić ukusnom hranom uz brzu dostavu!"</p>
             <a
               href="https://www.facebook.com/Fast-Food-Pink-Panther-Crikvenica-108903834810004"
-              class="m-2"
+              class="m-2 facebook-icon"
             >
               <img src="../../assets/img/facebook.png" />
             </a>
@@ -26,13 +34,25 @@
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto my-4">
             <h6 class="text-uppercase fw-bold mb-4">Stranice</h6>
             <p>
-              <a href="menu.html" class="text-reset">Meni</a>
+              <RouterLink class="text-reset" to="/menu" @click="ScrollToTop()"
+                >Meni</RouterLink
+              >
             </p>
             <p>
-              <a href="aboutus.html" class="text-reset">O nama</a>
+              <RouterLink
+                class="text-reset"
+                to="/aboutus"
+                @click="ScrollToTop()"
+                >O nama</RouterLink
+              >
             </p>
             <p>
-              <a href="contact.html" class="text-reset">Kontakt</a>
+              <RouterLink
+                class="text-reset"
+                to="/contact"
+                @click="ScrollToTop()"
+                >Kontakt</RouterLink
+              >
             </p>
           </div>
 
@@ -60,17 +80,25 @@
 </template>
 
 <style scoped>
-.main-footer-div {
-  background-color: #ffebee;
+a {
+  text-decoration: none;
 }
 
 .copyright-div {
   background-color: pink;
+}
+.copyright-div p {
+  letter-spacing: 1px;
 }
 
 .container,
 h6,
 .copyright-div {
   font-size: 16px;
+}
+
+.facebook-icon img {
+  background-color: white;
+  border-radius: 5px;
 }
 </style>

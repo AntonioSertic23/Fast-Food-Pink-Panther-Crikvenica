@@ -1,3 +1,11 @@
+<script setup>
+import { RouterLink } from "vue-router";
+
+function ScrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+</script>
+
 <template>
   <section class="main-section">
     <div class="container my-5">
@@ -135,13 +143,12 @@
 
             <div class="main-triple">
               <img class="main-triple-icon" src="../../assets/img/menu_2.png" />
-              <a
-                type="button"
-                href="menu.html"
+              <RouterLink
                 class="btn btn-light w-75 main-triple-btn"
+                to="/menu"
+                @click="ScrollToTop()"
+                >Meni</RouterLink
               >
-                <span class="me-2">Meni</span>
-              </a>
             </div>
           </div>
         </div>
@@ -172,7 +179,7 @@
 .main-triple-btn,
 .main-triple-btn {
   font-size: 25px !important;
-  background-color: hotpink;
+  background-color: #f977aa;
   border-radius: 15px;
 }
 

@@ -1,6 +1,10 @@
 <script setup>
 import { RouterLink } from "vue-router";
 import PageTitle from "../components/UI/PageTitle.vue";
+
+function ScrollToTop() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 </script>
 
 <template>
@@ -25,7 +29,10 @@ import PageTitle from "../components/UI/PageTitle.vue";
                   molestias natus in illum cupiditate necessitatibus...
                 </p>
                 <div class="card-bottom text-end">
-                  <RouterLink class="btn" to="/singlenews"
+                  <RouterLink
+                    class="btn"
+                    to="/singlenews"
+                    @click="ScrollToTop()"
                     >Pročitaj više...</RouterLink
                   >
                 </div>
@@ -120,7 +127,7 @@ import PageTitle from "../components/UI/PageTitle.vue";
   display: flex;
   box-shadow: 0 0.25rem 1rem 0 grey;
   border-radius: 15px;
-  background-color: #ffebee;
+  background-color: pink;
 }
 
 .card-image img {
@@ -147,7 +154,8 @@ import PageTitle from "../components/UI/PageTitle.vue";
 
 .card-bottom a {
   font-size: 20px;
-  background-color: hotpink;
+  background-color: #f977aa;
+  box-shadow: 3px 3px 0.5rem grey;
 }
 
 .last-card {

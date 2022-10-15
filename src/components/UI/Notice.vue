@@ -1,6 +1,6 @@
 <template>
   <div
-    class="col-lg-8 col-xxl-6 mx-auto part-one reward mt-5 px-2 px-md-4 py-3 text-center"
+    class="col-lg-8 col-xxl-6 mx-auto notice-div reward mt-5 px-2 px-md-4 py-3 text-center"
   >
     <h2>Samo za najgladnije</h2>
     <p class="m-3">
@@ -13,7 +13,7 @@
 </template>
 
 <style scoped>
-.part-one {
+.notice-div {
   box-shadow: 0 0.25rem 1rem 0 grey;
   border-radius: 15px;
   background-color: pink;

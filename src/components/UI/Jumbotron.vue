@@ -21,8 +21,7 @@
 .background-image {
   background-size: cover;
   height: 250px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../assets/img/backgroundtop.jpg");
+  background-image: url("../../assets/img/2.jpg");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,11 +39,12 @@
 
 .text-below-jumbotron h2 {
   font-family: EBGaramondItalic;
+  font-size: 31.25px;
 }
 
 @media (min-width: 992px) {
   .background-image {
-    height: 340px;
+    height: 350px;
   }
 
   .title {

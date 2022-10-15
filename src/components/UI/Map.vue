@@ -1,8 +1,8 @@
 <template>
   <div class="container p-0">
     <p class="text-center mb-4 section-header">Pronađite nas</p>
-    <div class="map-section row justify-content-center">
-      <div class="col-10 p-0">
+    <div class="map-section row justify-content-center m-4">
+      <div class="p-0">
         <div id="map"></div>
       </div>
     </div>
