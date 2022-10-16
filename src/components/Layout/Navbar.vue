@@ -47,9 +47,94 @@ function CloseNavbar() {
           <RouterLink class="nav-link" @click="CloseNavbar()" to="/contact"
             >Kontakt</RouterLink
           >
+          {{ $t("hello") }}
         </div>
         <div class="ms-auto navbar-language-div d-grid me-lg-3">
-          <button type="button" class="btn btn-outline-danger">Language</button>
+          <!-- <button type="button" class="btn btn-outline-danger">Language</button> -->
+
+          <!-- <select class="form-select" v-model="$i18n.locale">
+            <option
+              v-for="locale in $i18n.availableLocales"
+              :key="`locale-${locale}`"
+              :value="locale"
+            >
+              {{ locale }}
+            </option>
+          </select> -->
+
+          <!-- <button
+            class="btn btn-info"
+            @click="
+              () => {
+                $i18n.locale = 'en';
+              }
+            "
+          >
+            ENGLISH
+          </button>
+          <button
+            class="btn btn-info"
+            @click="
+              () => {
+                $i18n.locale = 'ja';
+              }
+            "
+          >
+            JAPANESE
+          </button> -->
+
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Language - {{ $i18n.locale.toUpperCase() }}
+            </button>
+            <ul
+              class="dropdown-menu dropdown-menu-end"
+              aria-labelledby="dropdownMenuButton1"
+            >
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  @click="
+                    () => {
+                      $i18n.locale = 'hr';
+                    }
+                  "
+                  ><img src="hr.png" class="me-3" /><span>Croatian</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  @click="
+                    () => {
+                      $i18n.locale = 'en';
+                    }
+                  "
+                  ><img src="en.png" class="me-3" /><span>English</span></a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  @click="
+                    () => {
+                      $i18n.locale = 'de';
+                    }
+                  "
+                  ><img src="de.png" class="me-3" /><span>German</span></a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -77,10 +162,36 @@ function CloseNavbar() {
   font-size: 20px !important;
 }
 
+.dropdown button {
+  background-color: #f977aa;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.dropdown-item {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.dropdown-item img {
+  height: 40px;
+  width: 40px;
+}
+
 /* kad je mobile da bude pozadina roza */
 @media (max-width: 992px) {
   .nav-link {
     background-color: pink;
+  }
+
+  .dropdown button {
+    width: 100%;
+    height: 54px;
+    margin-top: 3px;
+  }
+  .dropdown ul {
+    width: 100%;
+    position: static;
   }
 }
 
