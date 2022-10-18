@@ -84,11 +84,11 @@ function ScrollToTop() {
                 <img src="../assets/img/timeline_2.jpg" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title">Nova dostava</h5>
+                <h5 class="card-title">Domaće meso</h5>
                 <p class="card-text p-2">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestias, totam recusandae consectetur tempora molestiae
-                  necessitatibus a voluptatibus veniam similique ad...
+                  Fast Food Pink Panther na svom rostilju pece meso sa Hr OPG-a
+                  iz srca Like .... Tko je probao vjerujem da zna o čemu pricamo
+                  te se nadamo da je prepoznao domace isamo domace. 2. stu 2021.
                 </p>
                 <div class="card-bottom text-end">
                   <a href="single-news.html" class="btn">Pročitaj više...</a>

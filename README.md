@@ -1,14 +1,8 @@
 # PinkPanther
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to my first real solo project where I created a website for Fast Food Pink Panther Crkvenica.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+<div align="center"><img src="./public/pinkpanther.png" height="200" /></div>
 
 ## Project Setup
 
@@ -27,3 +21,10 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Built With
+
+- Vue 3
+- Bootstrap 5.0.2
+- Leaflet
+- Vue i18n

@@ -1,13 +1,4 @@
 
-NOVOSTI - objava
-- Vrhunsko meso opis
-
-                Fast Food Pink Panther na svom rostilju pece meso sa Hr OPG-a iz
-                srca Like .... Tko je probao vjerujem da zna o čemu pricamo te
-                se nadamo da je prepoznao domace isamo domace. 2. stu 2021.
-
-
-
 Pitanja za Teu:
 
 1)
@@ -23,10 +14,9 @@ Jesu li voljni da im se svaka 3 mjeseca pošalju nove promjene i onda oni samo s
 
 
 Završni detalji..
-¸	a) Ubaciti prijevod i18n
-	b) Popuniti sa valjanim informacijama
+	a) Popuniti sa valjanim informacijama
+	b) Prevesti stranicu
 	c) Sve dobrano pregledat
-	d) Style Guide
 
 
 
@@ -37,11 +27,6 @@ Upitno?
 	- Anketa / Upitnik
 	- Dark / Light teme
 	- Hosting (Netlify)
-
-
-
-https://coolors.co/ffffff-f8f9fa-eeeeee-ffc0cb-ff69b4-ff1493-000000-f08080
-
 
 
 ONLINE TOOLS
@@ -57,3 +42,4 @@ https://mockupbro.com
 
 
 https://slidesgo.com/themes?premium=0&color=pink¸	- Za powerpoint style guide
+
