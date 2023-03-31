@@ -10,12 +10,12 @@ Stranica je prvotno bila prilagođena samo mobilnim uređajima, ali je potom pri
 
 Dizajn stranice je popraćen modernim web dizajn pravilima kao što su skaliranje fonta, razmaci između elemenata i tekstova i razne druge stvari. Izgledom više podsjeća na stranicu restorana prije nego fast fooda, ali to je ciljano jer je njihova kultura to jednostavno zahtjevala.
 
-Za stranicu je također izrađen i personalizirani style guide iz želje za učenjem izrade istih. Style guide se nalazi u `Info/Fast Food Pink Panther Crikvenica Style Guide.pptx`.
+Za stranicu je također izrađen i personalizirani style guide iz želje za učenjem izrade istih. Style guide se nalazi u Info/Fast Food Pink Panther Crikvenica Style Guide.pptx.
 
 ---
 
-<div style="-webkit-column-count: 2; -moz-column-count: 2; column-count: 2; -webkit-column-rule: 1px dotted #e0e0e0; -moz-column-rule: 1px dotted #e0e0e0; column-rule: 1px dotted #e0e0e0;">
-<div style="display: inline-block;">
+<div style="display:flex; flex-direction:row;">
+<div style="display: inline-block;width:50%;">
 
 ### Built With
 
@@ -25,10 +25,12 @@ Za stranicu je također izrađen i personalizirani style guide iz želje za uče
 - Vue i18n
 
 </div>
-<div style="display: inline-block;">
-<div ><img src="./public/pinkpanther.png" height="100" style="margin-left:100px" /></div>
+<div style="display: inline-block;align-self: end;justify-self:end;width:50%;">
+<div ><img src="./public/pinkpanther.png" height="125" style="margin-left:100px" /></div>
 </div>
 </div>
+
+<br>
 
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js,vue,bootstrap)](https://skills.thijs.gg)
 
