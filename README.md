@@ -14,23 +14,12 @@ Za stranicu je također izrađen i personalizirani style guide iz želje za uče
 
 ---
 
-<div style="display:flex; flex-direction:row;">
-<div style="display: inline-block;width:50%;">
-
 ### Built With
 
 - Vue 3 (Composition API)
 - Bootstrap 5.0.2
 - Leaflet
 - Vue i18n
-
-</div>
-<div style="display: inline-block;align-self: end;justify-self:end;width:50%;">
-<div ><img src="./public/pinkpanther.png" height="125" style="margin-left:100px" /></div>
-</div>
-</div>
-
-<br>
 
 [![My Skills](https://skills.thijs.gg/icons?i=html,css,js,vue,bootstrap)](https://skills.thijs.gg)
 
