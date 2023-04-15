@@ -1,24 +1,7 @@
 
-Pitanja za Teu:
-
-1)
-Koliko godišnje košta to što je stranica na serveru, a koliko google maps?
-Može li bez google maps-a?
-
-2)
-Da li bi htjeli da im se pošalje stranica, a oni da samo stave na server?
-
-3)
-Jesu li voljni da im se svaka 3 mjeseca pošalju nove promjene i onda oni samo stave na server?
-
-
-
 Završni detalji..
 	a) Popuniti sa valjanim informacijama
 	b) Prevesti stranicu
-	c) Sve dobrano pregledat
-
-
 
 Upitno?
 	- Hotjar
@@ -27,19 +10,4 @@ Upitno?
 	- Anketa / Upitnik
 	- Dark / Light teme
 	- Hosting (Netlify)
-
-
-ONLINE TOOLS
-
-https://www.online-image-editor.com				- uređivanje png transparent slika
-https://www.photoroom.com/tools/remove-object-from-photo/	- micanje stvari sa slike
-
-
-https://github.com/bradtraversy/design-resources-for-developers#product--image-mockups 
-10 online tools to help you make quick mockup images of websites on any device
-https://smartmockups.com/mockups/screen-layers
-https://mockupbro.com
-
-
-https://slidesgo.com/themes?premium=0&color=pink¸	- Za powerpoint style guide
 
