@@ -1,34 +1,34 @@
 # Fast Food Pink Panther Crikvenica
 
-## Redizajn web stranice fast food-a Pink Panther u Crikvenici
+## Redesign of Pink Panther Fast Food Website in Crikvenica
 
-Stranica Fast Food Pink Panther Crikvenica je srednje-velik, strasteveni projekt preko kojega sam započeo izučavanje Vue.js-a i želio pokazati svoju kreativnost. Isto tako kreirana je iz potrebe klijenta za redizajnom postojeće stranice.
+The Fast Food Pink Panther Crikvenica website is a medium-sized, passion-driven project through which I started learning Vue.js and wanted to showcase my creativity. Additionally, it was created in response to the client's need for a redesign of their existing website.
 
-Stranica je rađena kao **Single Page Application**, a za izradu koristili su se najnoviji **Vue.js 3** uz **Composition API**, **Bootstrap 5.0.2** za dizajn, **Leaflat** - JavaScript biblioteka za interaktivne karte i implementiran je **Vue I18n** - Internacionalizacijski plugin za Vue.js.
+The website was built as a **Single Page Application**, using the latest **Vue.js 3** with the **Composition API**, **Bootstrap 5.0.2** for design, **Leaflet** - a JavaScript library for interactive maps, and **Vue I18n** - an internationalization plugin for Vue.js.
 
 [![My Skills](https://skills.thijs.gg/icons?i=vue,js,bootstrap)](https://skills.thijs.gg)
 
-Stranica je prvotno bila prilagođena samo mobilnim uređajima, ali je potom prilagođena desktop i tablet uređajima.
+Initially, the website was designed specifically for mobile devices, but later it was adapted for desktop and tablet devices as well.
 
-Dizajn stranice je popraćen modernim web dizajn pravilima kao što su skaliranje fonta, razmaci između elemenata i tekstova i razne druge stvari. Izgledom više podsjeća na stranicu restorana prije nego fast fooda, ali to je ciljano jer je njihova kultura to jednostavno zahtjevala.
+The website design follows modern web design principles, such as font scaling, spacing between elements and texts, and various other aspects. The appearance resembles more of a restaurant's website rather than a fast food website, but that was intentional as it suited their cultural requirements.
 
-Za stranicu je također izrađen i personalizirani style guide iz želje za učenjem izrade istih. Style guide se nalazi u `/info/Fast Food Pink Panther Crikvenica Style Guide.pptx`.
-
----
-
-### Stranica sadrži preglede:
-
-- menija uz prikaz svih sastojaka i cijena
-- galerije sa slikama svih ponuda iz menija
-- objava kategorije novosti
-- "o nama" sa pričom o nastanku i rastu
-- svih kontakata
+A personalized style guide was also created for the website as part of the learning process. The style guide can be found in `/info/Fast Food Pink Panther Crikvenica Style Guide.pptx`.
 
 ---
 
-### Pokretanje projekta
+### The website includes sections for:
 
-Potrebno je otvoriti projekt u Visual Studio Code-u i u terminalu pokenuti sljedeće linije koda.
+- Menu overview with all ingredients and prices.
+- Galleries with pictures of all menu offerings.
+- News category section for announcements.
+- "About us" section with a story about its origin and growth.
+- All contact information.
+
+---
+
+### Project Setup
+
+To start the project, open it in Visual Studio Code and in the terminal, run the following commands:
 
 ```sh
 npm install
