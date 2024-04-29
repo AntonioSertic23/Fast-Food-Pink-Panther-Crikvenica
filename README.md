@@ -6,7 +6,7 @@ The Fast Food Pink Panther Crikvenica website is a medium-sized, passion-driven 
 
 The website was built as a **Single Page Application**, using the latest **Vue.js 3** with the **Composition API**, **Bootstrap 5.0.2** for design, **Leaflet** - a JavaScript library for interactive maps, and **Vue I18n** - an internationalization plugin for Vue.js.
 
-[![My Skills](https://skills.thijs.gg/icons?i=vue,js,bootstrap)](https://skills.thijs.gg)
+[![My Skills](https://skillicons.dev/icons?i=vue,js,bootstrap)](https://skillicons.dev)
 
 Initially, the website was designed specifically for mobile devices, but later it was adapted for desktop and tablet devices as well.
 
